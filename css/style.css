@@ -82,3 +82,108 @@ nav p
     text-align: center;
     margin-top: 2.5%;
 }
+
+footer
+{
+    clear: both;
+    float: right;
+}
+
+article
+{
+    width: 500px;
+}
+
+#artiekel2
+{
+    float: right;
+}
+
+#afbeelding1 img
+{
+    width: 230px;
+}
+
+#afbeelding2 img
+{
+    width: 153px;
+    float: right;
+}
+
+#artiekel3
+{
+    float: left;
+}
+
+#sportt1
+{
+    float: left;
+}
+
+#sporta1 img
+{
+    width: 230px;
+}
+
+#sportt2
+{
+    float: right;
+    margin-left: 100px;
+}
+
+#sportt3
+{
+    float: left;
+}
+
+#sporta3 img
+{
+    width: 230px;
+}
+
+#sportt4
+{
+    float: right;
+}
+
+#natuurt1
+{
+    float: left;
+}
+
+#natuurt2
+{
+    float: right;
+    margin-left: 100px;
+}
+
+#natuurt3
+{
+    float: left;
+}
+
+#natuura3 img
+{
+    width: 230px;
+}
+
+#speelplekkent1
+{
+    float: left;
+}
+
+#speelplekkent2
+{
+    float: right;
+    margin-left: 100px;
+}
+
+#speelplekkent3
+{
+    float: left;
+}
+
+#speelplekkena3 img
+{
+    width: 230px;
+}
