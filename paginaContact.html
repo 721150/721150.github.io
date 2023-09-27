@@ -9,18 +9,23 @@
     <body>
         <header>
             <figure>
-                <img src="./Foto/logo.png" title="Logo website" alt="Het logo met daarop drie huizen van de website">
+                <img id="logo" src="./Foto/logo.png" title="Logo website" alt="Het logo met daarop drie huizen van de website">
             </figure>
             <h1>Contactpagina</h1>
         </header>
         <nav>
-
+            <p>Home</p>
+            <p>Onderwijs</p>
+            <p>Sport</p>
+            <p>Speelplekken</p>
+            <p>Natuur en winkels</p>
+            <p>Contact</p>
         </nav>
-        <section>
+        <section class="formulier">
             <p>Neem contact op met onderstaand formulier:</p>
             <p>* Deze velden zijn verplicht</p>
         </section>
-        <section>
+        <section class="formulier">
             <p>Welke aanhef wilt u gebruiken:*</p>
             <form>
                 <input type= "radio" id="man" name="aanhef" value="de heer">
@@ -39,10 +44,11 @@
                 <input type="text" name="e-mailadres" id="e-mailadres"><br>
             </form>
         </section>
-        <section>
+        <section class="formulier">
             <form>
                 <label for="vraag">Uw vraag/opmerking:*</label><br>
                 <input type="text" name="vraag" id="naam"><br>
+                <input type="submit" value="submit">
             </form>
         </section>
     </body>
