@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="nl-NL">
     <head>
         <meta charset="UFT-8">
         <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -22,12 +22,28 @@
         </section>
         <section>
             <p>Welke aanhef wilt u gebruiken:*</p>
-            <p>Uw naam:*</p>
-            <p>Uw e-mailadres:*</p>
-            <p>Uw telefoonnummer:</p>
+            <form>
+                <input type= "radio" id="man" name="aanhef" value="de heer">
+                <label for="de heer">de heer</label><br>
+                <input type= "radio" id="vrouw" name="aanhef" value="mevrouw">
+                <label for="mevrouw">mevrouw</label><br>
+                <input type= "radio" id="ontvanger" name="aanhef" value="beste">
+                <label for="beste">beste</label><br>
+            </form>
+            <form>
+                <label for="naam">Uw naam:*</label><br>
+                <input type="text" name="naam" id="naam"><br>
+                <label for="e-mailadres">Uw e-mailadres:*</label><br>
+                <input type="text" name="e-mailadres" id="e-mailadres"><br>
+                <label for="voornaam">Uw telefoonnummer:</label><br>
+                <input type="text" name="e-mailadres" id="e-mailadres"><br>
+            </form>
         </section>
         <section>
-            <p>Uw vraag/opmerking:*</p>
+            <form>
+                <label for="vraag">Uw vraag/opmerking:*</label><br>
+                <input type="text" name="vraag" id="naam"><br>
+            </form>
         </section>
     </body>
 </html>
