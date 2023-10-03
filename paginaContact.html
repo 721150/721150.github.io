@@ -6,53 +6,73 @@
         <link rel="icon" type="image/x-icon" href="./Foto/favicon.png">
     </head>
     <body>
-        <header>
-            <figure>
+        <header id="bedrijfs_uitstraling">
+            <a href="./index">
                 <img id="logo" src="./Foto/logo.png" title="Logo website" alt="Het logo met daarop drie huizen van de website">
-            </figure>
+            </a>
             <h1>Contactpagina</h1>
         </header>
-        <nav>
-            <a href="./index">Home</a>
-            <a href="./paginaOnderwijs">Onderwijs</a>
-            <a href="./paginaSport">
-            <a href="./paginaSpeelplekken">Speelplekken</a>
-            <a href="./paginaNatuur">Natuur en winkels</a>
-            <a href="./paginaContact">Contact</a>
+        <nav id="hoofdmenu">
+            <ul>
+                <li>
+                    <a href="./index">Home</a>
+                </li>
+                <li>
+                    <a href="./paginaOnderwijs">Onderwijs</a>
+                </li>
+                <li>
+                    <a href="./paginaSport">Sport</a>
+                </li>
+                <li>
+                    <a href="./paginaSpeelplekken">Speelplekken</a>
+                </li>
+                <li>
+                    <a href="./paginaNatuur">Natuur en winkels</a>
+                </li>
+                <li>
+                    <a href="./paginaContact">Contact</a>
+                </li>
+            </ul>   
         </nav>
-        <section class="formulier">
-            <p>Neem contact op met onderstaand formulier:</p>
-            <p>* Deze velden zijn verplicht</p>
-        </section>
-        <section class="formulier">
-            <p>Welke aanhef wilt u gebruiken:*</p>
-            <form>
-                <input type= "radio" id="man" name="aanhef" value="de heer">
-                <label for="man">de heer</label>
-                <input type= "radio" id="vrouw" name="aanhef" value="mevrouw">
-                <label for="vrouw">mevrouw</label>
-                <input type= "radio" id="ontvanger" name="aanhef" value="beste">
-                <label for="ontvanger">beste</label>
-            </form>
-            <form>
-                <label for="naam">Uw naam:*</label>
-                <input type="text" name="naam" id="naam"><br>
-                <label for="e-mailadres">Uw e-mailadres:*</label>
-                <input type="text" name="e-mailadres" id="e-mailadres"><br>
-                <label for="telefoonnummer">Uw telefoonnummer:</label>
-                <input type="text" name="telefoonnummer" id="telefoonnummer">
-            </form>
-        </section>
-        <section class="formulier">
-            <form>
-                <label for="vraag">Uw vraag/opmerking:*</label><br>
-                <input type="text" name="vraag" id="vraag"><br>
-                <input type="submit" value="submit">
-            </form>
-        </section>
+        <main>
+            <section class="formulier">
+                <p>Neem contact op met onderstaand formulier:</p>
+                <p>* Deze velden zijn verplicht</p>
+            </section>
+            <section class="formulier">
+                <p>Welke aanhef wilt u gebruiken:*</p>
+                <form>
+                    <input type= "radio" id="man" name="aanhef" value="de heer">
+                    <label for="man">de heer</label>
+                    <input type= "radio" id="vrouw" name="aanhef" value="mevrouw">
+                    <label for="vrouw">mevrouw</label>
+                    <input type= "radio" id="ontvanger" name="aanhef" value="beste">
+                    <label for="ontvanger">beste</label>
+                </form>
+                <form>
+                    <label for="naam">Uw naam:*</label>
+                    <input type="text" name="naam" id="naam"><br>
+                    <label for="e-mailadres">Uw e-mailadres:*</label>
+                    <input type="text" name="e-mailadres" id="e-mailadres"><br>
+                    <label for="telefoonnummer">Uw telefoonnummer:</label>
+                    <input type="text" name="telefoonnummer" id="telefoonnummer">
+                </form>
+            </section>
+            <section class="formulier">
+                <form>
+                    <label for="vraag">Uw vraag/opmerking:*</label><br>
+                    <input type="text" name="vraag" id="vraag"><br>
+                    <input type="submit" value="submit">
+                </form>
+            </section>
+        </main>
         <footer>
-            <a href="./paginaContact">Contact</a>
-            <p>© 2023 Leven in Driehuis</p>
+            <section id="footer_contact">
+                <a href="./paginaContact">Contact</a>
+            </section>
+            <section id="footer_copywrite">
+                <p>© 2023 Leven in Driehuis</p>
+            </section>
         </footer>
     </body>
 </html>

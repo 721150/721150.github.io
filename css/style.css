@@ -3,216 +3,45 @@
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: #FFFFFF;
 }
 
-header
+body
 {
-    background-color: #50AB00;
-    text-align: center;
-    color: #000000;
-    height: 103px;
+    width: 1440px;
+    margin: auto;
 }
 
-figure img
+#hoofdmenu > a
 {
-    width: 460px;
-    height: 255px;
-}
-
-picture img
-{
-    width: 460px;
-    height: 255px;
-}
-
-#logo
-{
-    width: 100px;
-    height: 100px;
+    width: 20%;
+    height: 100%;
     float: left;
 }
 
-nav a
+#hoofdmenu > ul
 {
+    width: 60%;
+    line-height: 7em;
     float: left;
-    width: 16.666666666666%;
     text-align: center;
-    background-color: #67DB00;
-    border-color: #000000;
-    height: 61px;
-    vertical-align: middle;
-    font-size: 24px;
-    color: #000000;
-    text-decoration: none;
 }
 
-#welkom
+#hoofdmenu > form
 {
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin-top: 35%;
-    clear: both;
-    margin-bottom: 5%;
-}
-
-#sport
-{
-    margin-left: 10%;
+    width: 20%;
+    line-height: 7em;
     float: left;
-    margin-top: 2.5%;
-    width: 446px;
 }
 
-#buitenspelen
-{
-    width: 446px;
-    float: right;
-    margin-right: 10%;
-    margin-top: 2.5%;
-}
-
-#onderwijs
-{
-    margin-left: 10%;
-    margin-right: 10%;
-    float: left;
-    margin-top: 2.5%;
-    width: 446px;
-}
-
-#natuur
-{
-    margin-right: 5%;
-    margin-top: 2.5%;
-    width: 446px;
-    float: right;
-}
-
-.formulier
-{
-    text-align: center;
-    margin-top: 2.5%;
-}
-
-footer
+#bedrijfs_uitstraling
 {
     clear: both;
-    background-color: #50AB00;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
-footer p
+#bedrijfs_uitstraling > h1
 {
-    float: right;
-}
-
-footer a
-{
-    float: left;
-    color: #E6E6FA;
-    text-decoration: none;
-}
-
-article
-{
-    width: 500px;
-}
-
-#artiekel2
-{
-    float: right;
-}
-
-#afbeelding1 img
-{
-    width: 230px;
-}
-
-#afbeelding2 img
-{
-    width: 153px;
-    float: right;
-}
-
-#artiekel3
-{
-    float: left;
-}
-
-#sportt1
-{
-    float: left;
-}
-
-#sporta1 img
-{
-    width: 230px;
-}
-
-#sportt2
-{
-    float: right;
-    margin-left: 100px;
-}
-
-#sportt3
-{
-    float: left;
-}
-
-#sporta3 img
-{
-    width: 230px;
-}
-
-#sportt4
-{
-    float: right;
-}
-
-#natuurt1
-{
-    float: left;
-}
-
-#natuurt2
-{
-    float: right;
-    margin-left: 100px;
-}
-
-#natuurt3
-{
-    float: left;
-}
-
-#natuura3 img
-{
-    width: 230px;
-}
-
-#speelplekkent1
-{
-    float: left;
-}
-
-#speelplekkent2
-{
-    float: right;
-    margin-left: 100px;
-}
-
-#speelplekkent3
-{
-    float: left;
-}
-
-#speelplekkena3 img
-{
-    width: 230px;
-}
-
-section form 
-{
-    background-color: #50AB00;
+    text-align: center;
 }
