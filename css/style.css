@@ -32,16 +32,18 @@ picture img
     float: left;
 }
 
-nav p
+nav a
 {
     float: left;
     width: 16.666666666666%;
     text-align: center;
-    background-color: #72F100;
+    background-color: #67DB00;
     border-color: #000000;
     height: 61px;
     vertical-align: middle;
     font-size: 24px;
+    color: #000000;
+    text-decoration: none;
 }
 
 #welkom
@@ -96,7 +98,19 @@ nav p
 footer
 {
     clear: both;
+    background-color: #50AB00;
+}
+
+footer p
+{
     float: right;
+}
+
+footer a
+{
+    float: left;
+    color: #E6E6FA;
+    text-decoration: none;
 }
 
 article
