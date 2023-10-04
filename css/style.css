@@ -93,3 +93,147 @@ footer > section > a
     width: 50%;
     float: left;
 }
+
+/* Opmaak van de teksten */
+main
+{
+    width: 100%;
+    height: auto;
+    clear: both;
+}
+
+.flexOuder
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/* Opmaak van de teksten homepagina */
+.home_artiekel
+{
+    margin: 5%;
+    flex-basis: 30%;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.home_artiekel > article > a > img
+{
+    width: 460px;
+}
+
+#home_artiekel_belangrijk
+{
+    clear: both;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/* Opmaak van de teksten onderwijspagina */
+.onderwijs_artiekel
+{ 
+    margin: 5%;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+.onderwijs_afbeelding1, .onderwijs_afbeelding2
+{
+    margin-top: 5%;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+.onderwijs_afbeelding1 > article > a > img
+{
+    width: 272px;
+}
+
+.onderwijs_afbeelding2 > article > a > img
+{
+    width: 175px;
+}
+
+/* Opmaak van de teksten sportpagina */
+.sport_artiekel
+{ 
+    margin: 5%;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+.sport_afbeelding1, .sport_afbeelding2
+{
+    margin-top: 5%;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+.sport_afbeelding1 > article > a > img
+{
+    width: 272px;
+}
+
+.sport_afbeelding2 > article > a > img
+{
+    width: 564px;
+}
+
+/* Opmaak van de teksten speelplekkenpagina */
+.speelplekken_artiekel
+{ 
+    margin: 5%;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+.speelplekken_afbeelding1, .speelplekken_afbeelding2
+{
+    margin-top: 5%;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+.speelplekken_afbeelding1 > article > a > img
+{
+    width: 272px;
+}
+
+.speelplekken_afbeelding2 > article > a > img
+{
+    width: 564px;
+}
+
+/* Opmaak van de teksten natuurpagina */
+.natuur_artiekel
+{ 
+    margin: 5%;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+.natuur_afbeelding1, .natuur_afbeelding2
+{
+    margin-top: 5%;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+.natuur_afbeelding1 > article > a > img
+{
+    width: 175px;
+}
+
+.natuur_afbeelding2 > article > a > img
+{
+    width: 564px;
+}
+
+/* Opmaak van de teksten contactpagina */
+.formulier
+{ 
+    margin: 5%;
+    text-align: center;
+}
