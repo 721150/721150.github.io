@@ -191,48 +191,198 @@ main
 }
 
 /* Opmaak van de teksten sportpagina */
-.sport_artiekel
+#sport_artiekel1, #sport_artiekel2, #sport_artiekel3, #sport_artiekel4
 { 
-    margin: 5%;
-    flex-basis: 20%;
+    margin: 4%;
+    flex-basis: 40%;
     flex-grow: 1;
 }
 
-.sport_afbeelding1, .sport_afbeelding2
+#sport_artiekel1
+{
+    order: 1;
+}
+
+#sport_artiekel2
+{
+    order: 5;
+}
+
+#sport_artiekel3
+{
+    order: 6;
+}
+
+#sport_artiekel4
+{
+    order: 10;
+}
+
+.sport_afbeelding1, #sport_afbeelding2, .sport_afbeelding3, #sport_afbeelding4, .sport_afbeelding1a, .sport_afbeelding3a
 {
     margin-top: 5%;
-    flex-basis: 20%;
+    flex-basis: 10%;
     flex-grow: 1;
+}
+
+.sport_afbeelding1
+{
+    order: 2;
+    margin-right: 1%;
+    margin-left: 5%;
+}
+
+.sport_afbeelding1a
+{
+    order: 3;
+    margin-right: 1%;
+}
+
+#sport_afbeelding2
+{
+    order: 4;
+    margin-left: 5%;
+    margin-right: 1%;
+}
+
+.sport_afbeelding3
+{
+    order: 8;
+    margin-left: 1%;
+    margin-right: 5%;
+}
+
+.sport_afbeelding3a
+{
+    order: 7;
+    margin-right: 1%;
+}
+
+#sport_afbeelding4
+{
+    order: 9;
+    margin-left: 5%;
+    margin-right: 1%;
 }
 
 /* Opmaak van de teksten speelplekkenpagina */
-.speelplekken_artiekel
+#speelplekken_artiekel1, #speelplekken_artiekel2, #speelplekken_artiekel3
 { 
-    margin: 5%;
-    flex-basis: 20%;
+    margin: 4%;
+    flex-basis: 40%;
     flex-grow: 1;
 }
 
-.speelplekken_afbeelding1, .speelplekken_afbeelding2
+#speelplekken_artiekel1
+{
+    order: 1;
+}
+
+#speelplekken_artiekel2
+{
+    order: 4;
+}
+
+#speelplekken_artiekel3
+{
+    order: 5;
+}
+
+#speelplekken_afbeelding1, #speelplekken_afbeelding2, .speelplekken_afbeelding3, .speelplekken_afbeelding3a
 {
     margin-top: 5%;
-    flex-basis: 20%;
+    flex-basis: 10%;
     flex-grow: 1;
+}
+
+#speelplekken_afbeelding1
+{
+    margin-right: 5%;
+    margin-left: 1%;
+    order: 2;
+}
+
+#speelplekken_afbeelding2
+{
+    margin-right: 1%;
+    margin-left: 5%;
+    order: 3;
+}
+
+.speelplekken_afbeelding3
+{
+    margin-left: 1%;
+    order: 6;
+}
+
+.speelplekken_afbeelding3a
+{
+    margin-right: 5%;
+    margin-left: 1%;
+    order: 7;
 }
 
 /* Opmaak van de teksten natuurpagina */
-.natuur_artiekel
+#natuur_artiekel1, #natuur_artiekel2, #natuur_artiekel3
 { 
-    margin: 5%;
-    flex-basis: 20%;
+    margin: 4%;
+    flex-basis: 40%;
     flex-grow: 1;
 }
 
-.natuur_afbeelding1, .natuur_afbeelding2
+#natuur_artiekel1
+{
+    order: 1;
+}
+
+#natuur_artiekel2
+{
+    order: 4
+}
+
+#natuur_artiekel3
+{
+    order: 5;
+}
+
+#natuur_afbeelding1, #natuur_afbeelding2, .natuur_afbeelding3, .natuur_afbeelding3b, .natuur_afbeelding3c
 {
     margin-top: 5%;
-    flex-basis: 20%;
+    flex-basis: 10%;
     flex-grow: 1;
+}
+
+#natuur_afbeelding1
+{
+    margin-right: 5%;
+    margin-left: 1%;
+    order: 2;
+}
+
+#natuur_afbeelding2
+{
+    margin-right: 1%;
+    margin-left: 5%;
+    order: 3;
+}
+
+.natuur_afbeelding3
+{
+    margin-left: 1%;
+    order: 6;
+}
+
+.natuur_afbeelding3b
+{
+    margin-left: 1%;
+    order: 7;
+}
+
+.natuur_afbeelding3c
+{
+    margin-left: 1%;
+    margin-right: 5%;
+    order: 8;
 }
 
 /* Opmaak van de teksten contactpagina */
