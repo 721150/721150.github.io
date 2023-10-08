@@ -234,13 +234,13 @@ main
 
 .sport_afbeelding1
 {
-    order: 2;
+    order: 3;
     margin-right: 1%;
 }
 
 .sport_afbeelding1a
 {
-    order: 3;
+    order: 2;
     margin-right: 4%;
 }
 
@@ -318,14 +318,14 @@ main
 .speelplekken_afbeelding3
 {
     margin-left: 1%;
-    order: 6;
+    order: 7;
 }
 
 .speelplekken_afbeelding3a
 {
     margin-right: 4%;
     margin-left: 1%;
-    order: 7;
+    order: 6;
 }
 
 /* Opmaak van de teksten natuurpagina */
