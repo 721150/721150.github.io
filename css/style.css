@@ -397,3 +397,19 @@ main
     margin: 5%;
     text-align: center;
 }
+
+#grid_container
+{
+    background-color: beige;
+    border: solid 10px beige;
+    padding: 10px;
+
+    display: grid;
+    grid-gap: 10px;
+
+    grid-template-areas: 
+    'bedrijfs_uitstraling'
+    'hoofdmenu'
+    'footer'
+    ;
+}
