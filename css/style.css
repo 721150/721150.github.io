@@ -10,6 +10,18 @@
     background-color: #FFFFFF;
 }
 
+/* De code voor de verschillende toning van de desktop en mobiele variant (code hier in zetten) */
+@media screen and (max-width: 719px) 
+{
+    /* Code voor de mobiele variant */
+
+}
+  
+  @media screen and (min-width: 720px) 
+{
+    /* Code voor de desktop variant */
+}
+
 body
 {
     margin: auto;
