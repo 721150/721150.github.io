@@ -11,13 +11,13 @@
 }
 
 /* De code voor de verschillende toning van de desktop en mobiele variant (code hier in zetten) */
-@media screen and (max-width: 719px) 
+@media screen and (max-width: 768px) 
 {
     /* Code voor de mobiele variant */
 
 }
   
-  @media screen and (min-width: 720px) 
+  @media screen and (min-width: 769px) 
 {
     /* Code voor de desktop variant */
 }
