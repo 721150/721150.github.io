@@ -15,7 +15,7 @@
             <a href="./index">
                 <img id="logo" src="./img/logo.png" title="Logo website" alt="Het logo met daarop drie huizen van de website">
             </a>
-            <h1>Contactpagina</h1>
+            <h1>Leven in Driehuis</h1>
         </header>
         <nav id="hoofdmenu">
             <ul>
@@ -40,26 +40,29 @@
             </ul>   
         </nav>
         <main>
-            <section class="formulier">
-                <p>Neem contact op met onderstaand formulier:</p>
-                <p>* Deze velden zijn verplicht</p>
+            <section>
+                <h1>Contact</h1>
             </section>
             <section class="formulier">
-                <p>Welke aanhef wilt u gebruiken:*</p>
+                <p>Neem bij vragen of opmerkingen contact op met Leven in Driehuis middels dit formulier:</p>
+                <p>* Velden zijn verplicht</p>
+            </section>
+            <section class="formulier">
                 <form>
+                    <p>Uw aanhef: *</p>
                     <input type= "radio" id="man" name="aanhef" value="de heer">
-                    <label for="man">de heer</label>
+                    <label for="man">De heer</label>
                     <input type= "radio" id="vrouw" name="aanhef" value="mevrouw">
-                    <label for="vrouw">mevrouw</label>
+                    <label for="vrouw">Mevrouw</label>
                     <input type= "radio" id="ontvanger" name="aanhef" value="beste">
-                    <label for="ontvanger">beste</label>
-                    <label for="naam">Uw naam:*</label>
-                    <input type="text" name="naam" id="naam">
-                    <label for="e-mailadres">Uw e-mailadres:*</label>
-                    <input type="text" name="e-mailadres" id="e-mailadres">
+                    <label for="ontvanger">Beste</label>
+                    <label for="naam">Uw naam: *</label>
+                    <input type="text" name="naam" id="naam" placeholder="Sarah Schaper">
+                    <label for="e-mailadres">Uw e-mailadres: *</label>
+                    <input type="text" name="e-mailadres" id="e-mailadres" placeholder="sschaper@inholland.nl">
                     <label for="telefoonnummer">Uw telefoonnummer:</label>
-                    <input type="text" name="telefoonnummer" id="telefoonnummer">
-                    <label for="vraag">Uw vraag/opmerking:*</label>
+                    <input type="text" name="telefoonnummer" id="telefoonnummer" placeholder="0612345678">
+                    <label for="vraag">Uw vraag/opmerking: *</label>
                     <textarea name="vraag" rows="6" cols="40"></textarea>
                     <input type="submit" value="verzenden">
                 </form>

@@ -1,0 +1,5 @@
+Student name: Boudewijn Galjaart 
+Student number: 721150
+Student class: HAINFVT1a
+GitHub Repository: https://github.com/721150/721150.github.io
+GitHub Pages URL: https://721150.github.io/
