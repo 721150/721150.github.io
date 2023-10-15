@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 *
 {
@@ -10,6 +10,96 @@
     border-color: transparent;
     border-style: none;
     border-width: 0%;
+}
+
+/* De juiste lettertypes en grotte van teksten toewijzen */
+body
+{
+    margin: auto;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+h1
+{
+    font-family: 'Satisfy';
+    font-size: 3.4em;
+}
+
+nav, button, #belangrijke_tekst_contact
+{
+    font-size: 1.7em;
+}
+
+#home_artiekel_belangrijk
+{
+    font-size: 1.4em;
+}
+
+figcaption, footer, aside > p, #onbelangrijke_tekst_contact, i
+{
+    font-size: 0.9em;
+}
+
+h2, #introVerwijzing, form
+{
+    font-size: 1em;
+}
+
+/* De juiste kleuren toewijzen */
+header, nav
+{
+    background-color: #244B00;
+}
+
+header > a > img, nav > ul > li > a, nav > ul > li, nav > ul, 
+article > p, article > p > a, article > h2, article > figure, article > figure > a ,article > figure > figcaption, article > ul, article > ul > li, article > ul > li > a, article > ol, article > ol > li, article > ol > li > a,
+footer > section > a, footer > section > p, footer > section,
+form > p, i, form > label, #verzendknop, form, .formulier > p, #home_artiekel_belangrijk,
+aside > a, aside > img, #introVerwijzing, aside > p
+{
+    background-color: transparent;
+}
+
+button, header, nav > ul > li > a
+{
+    color: #FFFFFF;
+}
+
+#home_artiekel_belangrijk, section > h1
+{
+    color: #244B00;
+}
+
+article, .formulier, aside
+{
+    background-color: #F5F5DC;
+}
+
+footer
+{
+    background-color: #50AB00;
+}
+
+/* Vormgeving van de teksten */
+nav > ul > li > a
+{
+    text-decoration: none;
+}
+
+#home_artiekel_belangrijk
+{
+    font-weight: bold;
+}
+
+article > ul
+{
+    list-style-type: disc; /* code om opsommingsteken voor opsomming te krijgen, doet het nog niet*/ 
+}
+
+article > ol
+{
+    list-style-type: decimal; /* code om opsommingsteken voor opsomming te krijgen, doet het nog niet*/ 
 }
 
 /* De code voor de verschillende toning van de desktop en mobiele variant (code hier in zetten) */
@@ -26,10 +116,7 @@
 
 /* code momenteel niet in gebruik, word aangepast */
 /*
-body
-{
-    margin: auto;
-}
+
 
 /* Opmaak van de header en logo */
 /*
