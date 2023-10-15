@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Satisfy&display=swap');
 
-
 *
 {
     margin: 0;
     padding: 0;
     border: 0;
     background-color: #FFFFFF;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0%;
 }
 
 /* De code voor de verschillende toning van de desktop en mobiele variant (code hier in zetten) */
@@ -22,12 +24,15 @@
     /* Code voor de desktop variant */
 }
 
+/* code momenteel niet in gebruik, word aangepast */
+/*
 body
 {
     margin: auto;
 }
 
 /* Opmaak van de header en logo */
+/*
 #bedrijfs_uitstraling, #bedrijfs_uitstraling_onderwijs
 {
     clear: both;
@@ -62,6 +67,7 @@ body
 }
 
 /* Opmaak van de navigatie */
+/*
 #hoofdmenu
 {
     width: 100%;
@@ -93,6 +99,7 @@ body
 }
 
 /* Opmaak van de footer */
+/*
 footer
 {
     clear: both;
@@ -120,6 +127,7 @@ footer > section > a
 }
 
 /* Opmaak van de teksten */
+/*
 main
 {
     width: 100%;
@@ -135,6 +143,7 @@ main
 }
 
 /* Opmaak van de teksten homepagina */
+/*
 .home_artiekel
 {
     margin: 5%;
@@ -157,6 +166,7 @@ main
 }
 
 /* Opmaak van de teksten onderwijspagina */
+/*
 #onderwijs_artiekel1, #onderwijs_artiekel2
 { 
     margin: 4%;
@@ -214,6 +224,7 @@ main
 }
 
 /* Opmaak van de teksten sportpagina */
+/*
 #sport_artiekel1, #sport_artiekel2, #sport_artiekel3, #sport_artiekel4
 { 
     margin: 4%;
@@ -288,6 +299,7 @@ main
 }
 
 /* Opmaak van de teksten speelplekkenpagina */
+/*
 #speelplekken_artiekel1, #speelplekken_artiekel2, #speelplekken_artiekel3
 { 
     margin: 4%;
@@ -345,6 +357,7 @@ main
 }
 
 /* Opmaak van de teksten natuurpagina */
+/*
 #natuur_artiekel1, #natuur_artiekel2, #natuur_artiekel3
 { 
     margin: 4%;
@@ -408,6 +421,7 @@ main
 }
 
 /* Opmaak van de teksten contactpagina */
+/*
 .formulier
 { 
     margin: 5%;
@@ -429,3 +443,4 @@ main
     'footer'
     ;
 }
+*/
