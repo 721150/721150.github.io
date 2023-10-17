@@ -26,7 +26,7 @@ h1
     font-size: 3.4em;
 }
 
-nav, button, #belangrijke_tekst_contact
+#hoofdmenu, button, #belangrijke_tekst_contact
 {
     font-size: 1.7em;
 }
@@ -36,7 +36,7 @@ nav, button, #belangrijke_tekst_contact
     font-size: 1.4em;
 }
 
-figcaption, footer, aside > p, #onbelangrijke_tekst_contact, i
+figcaption, footer, aside > p, #onbelangrijke_tekst_contact, i, #bijmenu
 {
     font-size: 0.9em;
 }
@@ -47,21 +47,21 @@ h2, #introVerwijzing, form
 }
 
 /* De juiste kleuren toewijzen */
-header, nav
-{
-    background-color: #244B00;
-}
-
-header > a > img, nav > ul > li > a, nav > ul > li, nav > ul, 
+header > a > img, nav > ul > li > a, nav > ul > li, nav > ul, header > h1, header > form, header > a
 article > p, article > p > a, article > h2, article > figure, article > figure > a ,article > figure > figcaption, article > ul, article > ul > li, article > ul > li > a, article > ol, article > ol > li, article > ol > li > a,
-footer > section > a, footer > section > p, footer > section,
+footer > section > a, footer > section > p, footer > section, footer > section > p > strong,
 form > p, i, form > label, #verzendknop, form, .formulier > p, #home_artiekel_belangrijk,
 aside > a, aside > img, #introVerwijzing, aside > p
 {
     background-color: transparent;
 }
 
-button, header, nav > ul > li > a
+header, #hoofdmenu > ul > li > a
+{
+    background-color: #244B00;
+}
+
+button, header > h1, nav > ul > li > a
 {
     color: #FFFFFF;
 }
@@ -76,9 +76,19 @@ article, .formulier, aside
     background-color: #F5F5DC;
 }
 
-footer
+footer, #bijmenu
 {
     background-color: #50AB00;
+}
+
+#bijmenu > ul > li > a
+{
+    color: #E6E6FA;
+}
+
+#hoofdmenu > ul > li > a
+{
+    border-color: #000000;
 }
 
 /* Vormgeving van de teksten */
@@ -102,6 +112,69 @@ article > ol
     list-style-type: decimal; /* code om opsommingsteken voor opsomming te krijgen, doet het nog niet*/ 
 }
 
+/* Grootte van de onderdelen op de website */
+#bedrijfs_uitstraling
+{
+    height: 10.9%;
+}
+
+#bedrijfs_uitstraling > a > img
+{
+    height: 9.2%;
+}
+
+#bedrijfs_uitstraling > form > input, #bedrijfs_uitstraling > form > button
+{
+    height: 5.4%; /* inputveld doet het nog niet */
+}
+
+#hoofdmenu > ul > li > a
+{
+    line-height: 2em;
+    border-width: 1px;
+    border-style: solid;
+}
+
+/* Positie van de onderdelen op de website */
+#hoofdmenu > ul > li
+{
+    display: inline;
+}
+
+#hoofdmenu > ul
+{
+    width: 100%;
+    clear: both;
+
+}
+
+#hoofdmenu > ul > li > a
+{
+    width: 16.5%;
+    float: left;
+    text-align: center;
+}
+
+#bedrijfs_uitstraling > a > img
+{   
+    float: left;
+    margin-left: 5.8%;
+}
+
+#bedrijfs_uitstraling > h1
+{   
+    float: left;
+    margin-left: 2.5%;
+    margin-top: 2.8%;
+}
+
+#bedrijfs_uitstraling > form
+{   
+    float: right;
+    margin-right: 1%;
+    margin-top: 2.8%;
+}
+
 /* De code voor de verschillende toning van de desktop en mobiele variant (code hier in zetten) */
 @media screen and (max-width: 768px) 
 {
@@ -113,421 +186,3 @@ article > ol
 {
     /* Code voor de desktop variant */
 }
-
-/* code momenteel niet in gebruik, word aangepast */
-/*
-
-
-/* Opmaak van de header en logo */
-/*
-#bedrijfs_uitstraling, #bedrijfs_uitstraling_onderwijs
-{
-    clear: both;
-    background-color: #50AB00;
-}
-
-#bedrijfs_uitstraling > h1
-{
-    text-align: center;
-    background-color: #50AB00;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: 12.7%;
-    font-size: 48px;
-}
-
-#bedrijfs_uitstraling > a > img, #bedrijfs_uitstraling_onderwijs > a > img
-{
-    background-color: #50AB00;
-    float: left;
-    margin-left: 5.8%;
-}
-
-#bedrijfs_uitstraling_onderwijs > h1
-{
-    text-align: center;
-    background-color: #50AB00;
-    margin-left: auto;
-    margin-right: 12.7%;
-    font-size: 48px;
-}
-
-/* Opmaak van de navigatie */
-/*
-#hoofdmenu
-{
-    width: 100%;
-    height: 6%;
-}
-
-#hoofdmenu > ul > li> a
-{
-    width: 16.6666666666666666666666666666666666666%;
-    height: 100%;
-    float: left;
-    color: #000000;
-    text-decoration: none;
-    background-color: #67DB00;
-    font-size: 24px;
-}
-
-#hoofdmenu > ul
-{
-    float: left;
-    width: 100%;
-    line-height: 3em;
-    text-align: center;
-}
-
-#hoofdmenu > ul > li
-{
-    display: inline;
-}
-
-/* Opmaak van de footer */
-/*
-footer
-{
-    clear: both;
-    width: 100%;
-    height: 4%;
-    line-height: 1.5em;
-    background-color: #67DB00;
-}
-
-footer > section > p
-{
-    background-color: #67DB00;
-    width: 50%;
-    float: right;
-    text-align: right;
-}
-
-footer > section > a
-{
-    background-color: #67DB00;
-    color: #E6E6FA;
-    text-decoration: none;
-    width: 50%;
-    float: left;
-}
-
-/* Opmaak van de teksten */
-/*
-main
-{
-    width: 100%;
-    height: auto;
-    clear: both;
-}
-
-.flexOuder
-{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-/* Opmaak van de teksten homepagina */
-/*
-.home_artiekel
-{
-    margin: 5%;
-    flex-basis: 30%;
-    flex-grow: 1;
-    text-align: center;
-}
-
-.home_artiekel > article > a > img
-{
-    width: 460px;
-}
-
-#home_artiekel_belangrijk
-{
-    clear: both;
-    text-align: center;
-    margin-left: 30%;
-    margin-right: 30%;
-}
-
-/* Opmaak van de teksten onderwijspagina */
-/*
-#onderwijs_artiekel1, #onderwijs_artiekel2
-{ 
-    margin: 4%;
-    flex-basis: 40%;
-    flex-grow: 1;
-}
-
-#onderwijs_artiekel1
-{
-    order: 3;
-}
-
-#onderwijs_artiekel2
-{
-    order: 4;
-}
-
-.onderwijs_afbeelding1, .onderwijs_afbeelding2, .onderwijs_afbeelding1a, .onderwijs_afbeelding2c
-{
-    margin-top: 5%;
-    flex-basis: 10%;
-    flex-grow: 1;
-}
-
-.onderwijs_afbeelding1
-{
-    margin-right: 1%;
-    margin-left: 4%;
-    order: 1;
-}
-
-.onderwijs_afbeelding2
-{
-    order: 5;
-}
-
-.onderwijs_afbeelding2c
-{
-    margin-right: 4%;
-    margin-left: 0%;
-    order: 6;
-}
-
-.onderwijs_afbeelding1a
-{
-    margin-right: 1%;
-    order: 2;
-}
-
-#onderwijs_artiekel_inleiding
-{
-    margin: 5%;
-    flex-basis: 44%;
-    flex-grow: 0;
-}
-
-/* Opmaak van de teksten sportpagina */
-/*
-#sport_artiekel1, #sport_artiekel2, #sport_artiekel3, #sport_artiekel4
-{ 
-    margin: 4%;
-    flex-basis: 40%;
-    flex-grow: 1;
-}
-
-#sport_artiekel1
-{
-    order: 1;
-}
-
-#sport_artiekel2
-{
-    order: 5;
-}
-
-#sport_artiekel3
-{
-    order: 6;
-}
-
-#sport_artiekel4
-{
-    order: 10;
-}
-
-.sport_afbeelding1, #sport_afbeelding2, .sport_afbeelding3, #sport_afbeelding4, .sport_afbeelding1a, .sport_afbeelding3a
-{
-    margin-top: 5%;
-    flex-basis: 10%;
-    flex-grow: 1;
-}
-
-.sport_afbeelding1
-{
-    order: 3;
-    margin-right: 1%;
-}
-
-.sport_afbeelding1a
-{
-    order: 2;
-    margin-right: 4%;
-}
-
-#sport_afbeelding2
-{
-    order: 4;
-    margin-left: 4%;
-    margin-right: 0%;
-}
-
-.sport_afbeelding3
-{
-    order: 8;
-    margin-left: 1%;
-    margin-right: 4%;
-}
-
-.sport_afbeelding3a
-{
-    order: 7;
-    margin-right: 1%;
-}
-
-#sport_afbeelding4
-{
-    order: 9;
-    margin-left: 4%;
-    margin-right: 1%;
-}
-
-/* Opmaak van de teksten speelplekkenpagina */
-/*
-#speelplekken_artiekel1, #speelplekken_artiekel2, #speelplekken_artiekel3
-{ 
-    margin: 4%;
-    flex-basis: 40%;
-    flex-grow: 1;
-}
-
-#speelplekken_artiekel1
-{
-    order: 1;
-}
-
-#speelplekken_artiekel2
-{
-    order: 4;
-}
-
-#speelplekken_artiekel3
-{
-    order: 5;
-}
-
-#speelplekken_afbeelding1, #speelplekken_afbeelding2, .speelplekken_afbeelding3, .speelplekken_afbeelding3a
-{
-    margin-top: 5%;
-    flex-basis: 10%;
-    flex-grow: 1;
-}
-
-#speelplekken_afbeelding1
-{
-    margin-right: 4%;
-    margin-left: 1%;
-    order: 2;
-}
-
-#speelplekken_afbeelding2
-{
-    margin-right: 0%;
-    margin-left: 4%;
-    order: 3;
-}
-
-.speelplekken_afbeelding3
-{
-    margin-left: 1%;
-    order: 7;
-}
-
-.speelplekken_afbeelding3a
-{
-    margin-right: 4%;
-    margin-left: 1%;
-    order: 6;
-}
-
-/* Opmaak van de teksten natuurpagina */
-/*
-#natuur_artiekel1, #natuur_artiekel2, #natuur_artiekel3
-{ 
-    margin: 4%;
-    flex-basis: 40%;
-    flex-grow: 1;
-}
-
-#natuur_artiekel1
-{
-    order: 1;
-}
-
-#natuur_artiekel2
-{
-    order: 4
-}
-
-#natuur_artiekel3
-{
-    order: 5;
-}
-
-#natuur_afbeelding1, #natuur_afbeelding2, .natuur_afbeelding3, .natuur_afbeelding3b, .natuur_afbeelding3c
-{
-    margin-top: 4%;
-    flex-basis: 10%;
-    flex-grow: 1;
-}
-
-#natuur_afbeelding1
-{
-    margin-right: 4%;
-    margin-left: 1%;
-    order: 2;
-}
-
-#natuur_afbeelding2
-{
-    margin-right: 0%;
-    margin-left: 4%;
-    order: 3;
-}
-
-.natuur_afbeelding3
-{
-    margin-left: 1%;
-    order: 6;
-}
-
-.natuur_afbeelding3b
-{
-    margin-left: 1%;
-    order: 7;
-}
-
-.natuur_afbeelding3c
-{
-    margin-left: 1%;
-    margin-right: 4%;
-    order: 8;
-}
-
-/* Opmaak van de teksten contactpagina */
-/*
-.formulier
-{ 
-    margin: 5%;
-    text-align: center;
-}
-
-#grid_container
-{
-    background-color: beige;
-    border: solid 10px beige;
-    padding: 10px;
-
-    display: grid;
-    grid-gap: 10px;
-
-    grid-template-areas: 
-    'bedrijfs_uitstraling'
-    'hoofdmenu'
-    'footer'
-    ;
-}
-*/
