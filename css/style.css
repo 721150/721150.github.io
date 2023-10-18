@@ -66,7 +66,7 @@ button, header > h1, nav > ul > li > a
     color: #FFFFFF;
 }
 
-#home_artiekel_belangrijk, section > h1
+#welkom_website > h1, #welkom_website > p, section > h1
 {
     color: #244B00;
 }
@@ -140,6 +140,16 @@ article > ol
     border-style: solid;
 }
 
+#onderwijs_home > figure > a > img, #sport_home > figure > a > img, #buitenspelen_home > figure > a > img, #natuur_home > figure > a > img
+{
+     width: 53.6%;
+}
+
+#onderwijs_home > p, #sport_home > p, #buitenspelen_home > p, #natuur_home > p
+{
+    width: 33.9%;
+}
+
 /* Positie van de onderdelen op de website */
 #hoofdmenu > ul > li, #bijmenu > ul > li
 {
@@ -211,17 +221,89 @@ footer > section > p
 
 #onderwijs_home, #sport_home, #buitenspelen_home, #natuur_home
 {
-    width: 35.2%;
+    width: 70.4%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
-#onderwijs_home > figure > a > img, #sport_home > figure > a > img, #buitenspelen_home > figure > a > img, #natuur_home > figure > a > img
+#onderwijs_home, #buitenspelen_home
 {
-    width: 53.6%;
+    margin-left: 24.2%;
 }
 
-#onderwijs_home > p, #sport_home > p, #buitenspelen_home > p, #natuur_home > p
+#sport_home, #natuur_home
 {
-    width: 33.9%;
+    margin-left: 5.3%;
+}
+
+section
+{
+    display: grid;
+    grid-template-areas: 
+    'onderwijs_home sport_home'
+    'buitenspelen_home natuur_home';
+}
+
+#onderwijs_home > p, #onderwijs_home > h2, #buitenspelen_home > p, #buitenspelen_home > h2
+{
+    float: right;
+    clear: both;
+}
+
+#sport_home > p, #sport_home > h2, #natuur_home > p, #natuur_home > h2
+{
+    float: left;
+    clear: both;
+}
+
+#onderwijs_home > h2, #onderwijs_home > figure > a > img, 
+#buitenspelen_home > h2, #buitenspelen_home > figure > a > img,
+#sport_home > h2, #sport_home > figure > a > img,
+#natuur_home > h2, #natuur_home > figure > a > img
+{
+    margin-top: 7.1%;
+}
+
+#onderwijs_home > p, #onderwijs_home > figure > figcaption, 
+#buitenspelen_home > p, #buitenspelen_home > figure > figcaption
+{
+    margin-bottom: 7.1%;
+}
+
+#onderwijs_home > h2, #onderwijs_home > figure > a > img, #onderwijs_home > figure > figcaption,
+#buitenspelen_home > h2, #buitenspelen_home > figure > a > img, #buitenspelen_home > figure > figcaption,
+#sport_home > p, #sport_home > h2,
+#natuur_home > p, #natuur_home > h2
+{
+    margin-left: 4.1%;
+}
+
+#onderwijs_home > h2
+{
+    margin-right: 23.1%;
+}
+
+#buitenspelen_home > h2
+{
+    margin-right: 18.7%;
+}
+
+#onderwijs_home > p,
+#buitenspelen_home > p,
+#sport_home > p,
+#natuur_home > p
+{
+    margin-right: 4.1%;
+}
+
+#natuur_home > figure > figcaption
+{
+    margin-left: 80.5%
+}
+
+#sport_home > figure > figcaption
+{
+    margin-left: 78.5%
 }
 
 /* De code voor de verschillende toning van de desktop en mobiele variant (code hier in zetten) */
