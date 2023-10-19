@@ -47,7 +47,8 @@ h2, #introVerwijzing, form
 }
 
 /* De juiste kleuren toewijzen */
-header > a > img, nav > ul > li > a, nav > ul > li, nav > ul, header > h1, header > form, header > a,
+#bedrijfs_uitstraling > a > img, #bedrijfs_uitstraling > h1, #bedrijfs_uitstraling > form, #bedrijfs_uitstraling > a, #bedrijfs_uitstraling > form > input, #bedrijfs_uitstraling > form > button,
+nav > ul > li > a, nav > ul > li, nav > ul, 
 article > p, article > p > a, article > h2, article > figure, article > figure > a ,article > figure > figcaption, article > ul, article > ul > li, article > ul > li > a, article > ol, article > ol > li, article > ol > li > a,
 footer > section > a, footer > section > p, footer > section, footer > section > p > strong,
 form > p, i, form > label, #verzendknop, form, .formulier > p, #home_artiekel_belangrijk,
@@ -56,7 +57,7 @@ aside > a, aside > img, #introVerwijzing, aside > p
     background-color: transparent;
 }
 
-header, #hoofdmenu > ul > li > a
+#bedrijfs_uitstraling, #hoofdmenu > ul > li > a
 {
     background-color: #244B00; /* Wordt niet toegekent op de gewenste plaats */
 }
@@ -150,7 +151,7 @@ article > ol
     width: 33.9%;
 }
 
-/* Positie van de onderdelen op de website */
+/* Positie van de onderdelen op de website */ 
 #hoofdmenu > ul > li, #bijmenu > ul > li
 {
     display: inline;
@@ -192,10 +193,10 @@ article > ol
 
 #bijmenu
 {
-    margin-left: 34%;
+    margin-left: 49%;
     text-align: center;
     float: left;
-    width: 32.6%;
+    width: 80%;
 }
 
 #bijmenu > ul > li > a
@@ -203,7 +204,7 @@ article > ol
     margin-right: 2.5%;
 }
 
-footer > section > p
+footer > section > p > strong
 {
     float: right;
     margin-right: 1%;
@@ -304,6 +305,30 @@ section
 #sport_home > figure > figcaption
 {
     margin-left: 78.5%
+}
+
+#bedrijfs_uitstraling > a > img
+{
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+}
+
+#welkom_website > h1
+{
+    float: left;
+    margin-left: 19%;
+    margin-top: 2%;
+}
+
+#welkom_website > p
+{
+    margin-top: 2.2%;
+    float: left;
+}
+
+section
+{
+    clear: both;
 }
 
 /* De code voor de verschillende toning van de desktop en mobiele variant (code hier in zetten) */
