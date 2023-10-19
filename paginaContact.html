@@ -35,22 +35,22 @@
                 <li>
                     <a href="./paginaNatuur">Natuur en horeca</a>
                 </li>
-                <li>
+                <li id="deze_pagina">
                     <a href="./paginaContact">Contact</a>
                 </li>
             </ul>   
         </nav>
         <main>
-            <section>
+            <section id="titel_pagina">
                 <h1>Contact</h1>
             </section>
-            <section class="formulier">
-                <p id="belangrijke_tekst_contact">Neem bij vragen of opmerkingen contact op met Leven in Driehuis middels dit formulier:</p>
-                <p id="onbelangrijke_tekst_contact">* Velden zijn verplicht</p>
-            </section>
-            <section class="formulier">
+            <section id="formulier">
+                <section>
+                    <p id="belangrijke_tekst_contact">Neem bij vragen of opmerkingen contact op met Leven in Driehuis middels dit formulier:</p>
+                    <p id="onbelangrijke_tekst_contact">* Velden zijn verplicht</p>
+                </section>
                 <form>
-                    <p>Uw aanhef: <i>*</i></p>
+                    <p id="aanhef">Uw aanhef: <i>*</i></p>
                     <input type= "radio" id="man" name="aanhef" value="de heer">
                     <label for="man">De heer</label>
                     <input type= "radio" id="vrouw" name="aanhef" value="mevrouw">
@@ -64,7 +64,7 @@
                     <label for="telefoonnummer">Uw telefoonnummer:</label>
                     <input type="text" name="telefoonnummer" id="telefoonnummer" placeholder="0612345678">
                     <label for="vraag">Uw vraag/opmerking: <i>*</i></label>
-                    <textarea name="vraag" rows="6" cols="40"></textarea>
+                    <textarea name="vraag" id="groot_invoerveld"></textarea>
                     <p>Wij proberen u binnen 5 werkdagen een reactie te geven.</p>
                     <input id="verzendknop" type="submit" value="verzenden">
                 </form>
