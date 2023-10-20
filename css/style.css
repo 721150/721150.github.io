@@ -136,11 +136,6 @@ article > ol
     height: 9.2%;
 }
 
-#bedrijfs_uitstraling > form > input, #bedrijfs_uitstraling > form > button
-{
-    height: 5.4%; /* inputveld doet het nog niet */
-}
-
 #hoofdmenu > ul > li > a
 {
     line-height: 2em;
@@ -235,6 +230,17 @@ article > ol
 {   
     margin-left: 15%;
     margin-top: 2.8%;
+}
+
+#bedrijfs_uitstraling > form > input
+{
+    padding-top: 0.5%;
+}
+
+#bedrijfs_uitstraling > form > button
+{
+    padding-bottom: 1%;
+    padding-top: 0.5%;
 }
 
 #bijmenu
@@ -470,6 +476,246 @@ aside
 #tekst_onderwijs, #tekst_onderwijs_zonder_kleur2 > ol, aside, #tekst_onderwijs_zonder_kleur2, #tekst_onderwijs > p, #tekst_onderwijs > ul
 {
     clear: both;
+}
+
+#aside_onderwijs
+{
+    display: grid;
+    grid-template-columns: 31.9% auto auto auto;
+    padding: 1%;
+    grid-gap: 10px;
+    #introVerwijzing
+    {
+    grid-row: 1 / 5;   
+    } 
+    #link_Sport
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #link_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    #link_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+    #foto_Sport
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #foto_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #foto_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #naam_Sport
+    {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    #naam_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    #naam_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
+}
+
+#aside_natuur
+{
+    display: grid;
+    grid-template-columns: 31.9% auto auto auto;
+    padding: 1%;
+    grid-gap: 10px;
+    #introVerwijzing
+    {
+    grid-row: 1 / 5;   
+    } 
+    #link_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #link_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    #link_Buitenspelen
+    {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+    #foto_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #foto_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #foto_Buitenspelen
+    {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #naam_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    #naam_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    #naam_Buitenspelen
+    {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
+}
+
+#aside_speelplekken
+{
+    display: grid;
+    grid-template-columns: 31.9% auto auto auto;
+    padding: 1%;
+    grid-gap: 10px;
+    #introVerwijzing
+    {
+    grid-row: 1 / 5;   
+    } 
+    #link_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #link_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    #link_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+    #foto_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #foto_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #foto_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #naam_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    #naam_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    #naam_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
+}
+
+#aside_sport
+{
+    display: grid;
+    grid-template-columns: 31.9% auto auto auto;
+    padding: 1%;
+    grid-gap: 10px;
+    #introVerwijzing
+    {
+    grid-row: 1 / 5;   
+    } 
+    #link_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #link_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    #link_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+    #foto_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #foto_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #foto_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #naam_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    #naam_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    #naam_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
 }
 
 /* De code voor de verschillende toning van de desktop en mobiele variant (code hier in zetten) */

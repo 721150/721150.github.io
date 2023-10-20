@@ -14,6 +14,7 @@
             </a>
             <h1>Leven in Driehuis</h1>
             <form>
+                <!-- Dit zoekvenster doet het niet, er kan alleen invoer worden gegeven waarna op de knop kan worden gedrukt (waarna het formulier weer leeg wordt weergeven) -->
                 <input type="text"  name="zoeken">
                 <button type="submit">Zoeken</button>
             </form>
@@ -77,17 +78,23 @@
                 </figure> 
             </article>
         </main>
-        <aside>
+        <aside id="aside_natuur">
             <p id="introVerwijzing">Bent u ook opzoek naar informatie over scholen, sportclubs, speelplekken. Kijk dan op een van de volgende pagina’s:</p>
-            <a href="./paginaOnderwijs">Onderwijs</a>
-            <img src="./img/Onderwijs_Verwijzing.png" title="Onderwijs" alt="Een afbeelding van De Jan Campert in Driehuis"/>
-            <p>De Jan Campert</p>
-            <a href="./paginaSport">Sport</a>
-            <img src="./img/Sport_Verwijzing.png" title="Sport" alt="Een afbeelding van de Waterloozaal in Driehuis"/>
-            <p>Waterloozaal</p>
-            <a href="./paginaBuitenspelen">Buitenspelen</a>
-            <img src="./img/Buitenspelen_Verwijzing.png" title="Buitenspelen" alt="Een afbeelding van het speelveld in Driehuis"/>
-            <p>Speelveld</p>
+            <a id="link_Onderwijs" href="./paginaOnderwijs">Onderwijs</a>
+            <a href="./paginaOnderwijs">
+            <img id="foto_Onderwijs" src="./img/Onderwijs_Verwijzing.png" title="Onderwijs" alt="Een afbeelding van De Jan Campert in Driehuis"/>
+            </a>
+            <p id="naam_Onderwijs">De Jan Campert</p>
+            <a id="link_Sport" href="./paginaSport">Sport</a>
+            <a href="./paginaSport">
+            <img id="foto_Sport" src="./img/Sport_Verwijzing.png" title="Sport" alt="Een afbeelding van de Waterloozaal in Driehuis"/>
+            </a>
+            <p id="naam_Sport">Waterloozaal</p>
+            <a id="link_Buitenspelen" href="./paginaBuitenspelen">Buitenspelen</a>
+            <a href="./paginaSpeelplekken">
+            <img id="foto_Buitenspelen" src="./img/Buitenspelen_Verwijzing.png" title="Buitenspelen" alt="Een afbeelding van het speelveld in Driehuis"/>
+            </a>
+            <p id="naam_Buitenspelen">Speelveld</p>
         </aside>
         <footer>
             <section>
