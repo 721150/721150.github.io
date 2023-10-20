@@ -289,7 +289,7 @@ footer > section > p > strong
     margin-left: 5.3%;
 }
 
-section
+#section_home
 {
     display: grid;
     grid-template-areas: 
@@ -394,7 +394,7 @@ section
 #titel_pagina_natuur
 {
     text-align: center;
-    margin-left: 25%;
+    margin-left: 2%;
     margin-top: 5%;
     margin-bottom: 1%;
 }
@@ -476,6 +476,157 @@ aside
 #tekst_onderwijs, #tekst_onderwijs_zonder_kleur2 > ol, aside, #tekst_onderwijs_zonder_kleur2, #tekst_onderwijs > p, #tekst_onderwijs > ul
 {
     clear: both;
+}
+
+#section_natuur, #section_speelplekken, #section_sport
+{
+    display: grid;
+    grid-template-rows: auto auto;
+    #tekst_natuur_boven1, #tekst_speelplekken_boven1, #tekst_sport_boven1  
+    {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2
+    }
+    #tekst_natuur_boven2, #tekst_speelplekken_boven2, #tekst_sport_boven2
+    {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3
+    }
+    #tekst_natuur_onder, #tekst_speelplekken_onder
+    {
+        grid-row: 2 / 3;
+        grid-column: 1 / 3
+    }
+    #tekst_sport_onder1 
+    {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2
+    }
+    #tekst_sport_onder2
+    {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3
+    }
+}
+
+#tekst_natuur_boven1, #tekst_speelplekken_boven1
+{
+    margin-left: 20%;
+    margin-right: 2.5%;
+}
+
+#tekst_natuur_boven2, #tekst_speelplekken_boven2
+{
+    margin-left: 1%;
+    margin-right: 20%;
+}
+
+#tekst_natuur_boven1, #tekst_natuur_boven2, #tekst_speelplekken_boven1, #tekst_speelplekken_boven2
+{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    padding: 1%;
+    grid-gap: 10px;
+    .titel_natuur, .titel_speelplekken
+    {
+        grid-row: 1 / 2;
+    }
+    .tekst_natuur, .tekst_speelplekken
+    {
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    .foto_natuur, .foto_speelplekken
+    {
+        grid-row: 3 / 4;
+    }
+    .foto_natuur_img, .foto_speelplekken_img
+    {
+        width: 100%;
+    }
+    .bijschrift
+    {
+        text-align: right;
+    }
+}
+
+#tekst_natuur_onder
+{
+    display: grid;
+    grid-template-columns: 50% auto auto auto;
+    padding: 1%;
+    grid-gap: 10px;
+    .titel_natuur
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .tekst_natuur
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 5%;
+    }
+    #foto_natuur1
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+    #foto_natuur2
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+    }
+    #foto_natuur1
+    {
+        grid-column: 4 / 5;
+        grid-row: 1 / 3;
+    }
+    .foto_natuur_img
+    {
+        width: 100%;
+    }
+    .bijschrift
+    {
+        text-align: right;
+    }
+}
+
+#tekst_speelplekken_onder
+{
+    display: grid;
+    grid-template-columns: 50% auto auto;
+    padding: 1%;
+    grid-gap: 10px;
+    .titel_speelplekken
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .tekst_speelplekken
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 5%;
+    }
+    #foto_speelplekken1
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+    #foto_speelplekken2
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+    }
+    .foto_speelplekken_img
+    {
+        width: 100%;
+    }
+    .bijschrift
+    {
+        text-align: right;
+    }
 }
 
 #aside_onderwijs
