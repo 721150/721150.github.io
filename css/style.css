@@ -51,7 +51,7 @@ h2, #introVerwijzing, form
 nav > ul > li > a, nav > ul > li, nav > ul, 
 article > p, article > p > a, article > h2, article > figure, article > figure > a ,article > figure > figcaption, article > ul, article > ul > li, article > ul > li > a, article > ol, article > ol > li, article > ol > li > a,
 footer > section > a, footer > section > p, footer > section, footer > section > p > strong,
-form > p, i, form > label, #verzendknop, form, #formulier > section > p, #formulier > section, #home_artiekel_belangrijk,
+form > p, i, form > label, #verzendknop, form, #formulier > section > p, #formulier > section, #home_artiekel_belangrijk, form > legend > label, form > legend,
 aside > a, aside > img, #introVerwijzing, aside > p,
 #tekst_onderwijs_zonder_kleur1, #tekst_onderwijs_zonder_kleur2
 {
@@ -125,7 +125,7 @@ article > ol
     list-style-type: decimal;
 }
 
-#bedrijfs_uitstraling > h1
+h1
 {   
     font-weight: normal;
 }
@@ -197,6 +197,12 @@ article > ol
 {
     padding-top: 10%;
     padding-bottom: 10%;
+}
+
+#naam2, #e-mailadres2, #telefoonnummer2
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 /* Positie van de onderdelen op de website */ 
@@ -513,7 +519,7 @@ aside
 #tekst_sport_boven1, #tekst_sport_onder1
 {
     display: grid;
-    grid-template-rows: auto auto;
+    grid-template-columns: 49% 49%;
     padding: 1%;
     grid-gap: 10px;
     .titel_sport
@@ -550,7 +556,7 @@ aside
 #tekst_natuur_onder
 {
     display: grid;
-    grid-template-columns: 50% auto auto auto;
+    grid-template-columns: auto 16% 16% 16%;
     padding: 1%;
     grid-gap: 10px;
     .titel_natuur
@@ -592,7 +598,7 @@ aside
 #tekst_speelplekken_onder
 {
     display: grid;
-    grid-template-columns: 50% auto auto;
+    grid-template-columns: auto 24% 24%;
     padding: 1%;
     grid-gap: 10px;
     .titel_speelplekken
@@ -661,7 +667,7 @@ aside
 #tekst_onderwijs_zonder_kleur2
 {
     display: grid;
-    grid-template-columns: 50% auto auto auto;
+    grid-template-columns: auto 16% 16% 16%;
     padding: 1%;
     grid-gap: 10px;
     .titel_onderwijs
@@ -710,7 +716,7 @@ aside
 #tekst_onderwijs_met_kleur
 {
     display: grid;
-    grid-template-columns: auto auto 50%;
+    grid-template-columns: 24% 24% auto;
     padding: 1%;
     grid-gap: 10px;
     .titel_onderwijs
@@ -754,7 +760,7 @@ aside
 #aside_onderwijs
 {
     display: grid;
-    grid-template-columns: 31.9% auto auto auto;
+    grid-template-columns: auto 22% 22% 22%;
     padding: 1%;
     grid-gap: 10px;
     #introVerwijzing
@@ -814,7 +820,7 @@ aside
 #aside_natuur
 {
     display: grid;
-    grid-template-columns: 31.9% auto auto auto;
+    grid-template-columns: auto 22% 22% 22%;
     padding: 1%;
     grid-gap: 10px;
     #introVerwijzing
@@ -874,7 +880,7 @@ aside
 #aside_speelplekken
 {
     display: grid;
-    grid-template-columns: 31.9% auto auto auto;
+    grid-template-columns: auto 22% 22% 22%;
     padding: 1%;
     grid-gap: 10px;
     #introVerwijzing
@@ -934,7 +940,7 @@ aside
 #aside_sport
 {
     display: grid;
-    grid-template-columns: 31.9% auto auto auto;
+    grid-template-columns: auto 22% 22% 22%;
     padding: 1%;
     grid-gap: 10px;
     #introVerwijzing
@@ -1080,6 +1086,7 @@ aside
     {
         grid-column: 1 / 2;
         grid-row: 8 / 9;
+        margin-right: 50%;
     }
 }
 
@@ -1115,9 +1122,14 @@ aside
     margin-top: 10%;
 }
 
-#naam1, #naam2, #e-mailadres1, #e-mailadres2, #telefoonnummer1, #telefoonnummer2
+#naam1, #e-mailadres1, #telefoonnummer1
 {
     margin-top: 10%;
+}
+
+#naam2, #e-mailadres2, #telefoonnummer2
+{
+    margin-top: 7%;
 }
 
 #vraag
@@ -1144,14 +1156,43 @@ aside
     padding-bottom: 3%;
 }
 
+footer > section
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bijmenu > ul > li
+{
+    flex-basis: 70%;
+    flex-grow: 1;
+}
+
+#bijmenu
+{
+    padding-top: 1%;
+}
+
+#copyright
+{
+    flex-basis: 10%;
+    flex-grow: 1;
+}
+
 /* De code voor de verschillende toning van de desktop en mobiele variant (code hier in zetten) */
+@media screen and (min-width: 769px) 
+{
+    /* Code voor de desktop variant */
+    /* Hier staat geen apparte code, hiervoor wordt de bovenstaande code gebruikt (die is gemaakt voor de desktop variant) */
+}
+
 @media screen and (max-width: 768px) 
 {
     /* Code voor de mobiele variant */
-
+    /* Elementen die niet op de mobiele variant worden getoont */
+    #bedrijfs_uitstraling > form, #titel_pagina, #ontvanger1, #ontvanger1, #tekst_onderwijs_zonder_kleur1 > #foto_onderwijs
+    {
+        display: none;
+    }
 }
   
-  @media screen and (min-width: 769px) 
-{
-    /* Code voor de desktop variant */
-}
