@@ -125,6 +125,11 @@ article > ol
     list-style-type: decimal;
 }
 
+#bedrijfs_uitstraling > h1
+{   
+    font-weight: normal;
+}
+
 /* Grootte van de onderdelen op de website */
 #bedrijfs_uitstraling
 {
@@ -174,18 +179,24 @@ article > ol
 #bedrijfs_uitstraling > form > input
 {
     width: 60%;
-    height: 70%;
+    height: 50%;
 }
 
 #bedrijfs_uitstraling > form > button
 {
     width: 20%;
-    height: 70%;
+    height: 50%;
 }
 
 #bedrijfs_uitstraling > form
 {
     width: 40%;
+}
+
+#logo
+{
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 /* Positie van de onderdelen op de website */ 
@@ -223,7 +234,7 @@ article > ol
 #bedrijfs_uitstraling > h1
 {   
     margin-left: 10%;
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
 #bedrijfs_uitstraling > form
@@ -296,66 +307,70 @@ footer > section > p > strong
     'buitenspelen_home natuur_home';
 }
 
-#onderwijs_home > p, #onderwijs_home > h2, #buitenspelen_home > p, #buitenspelen_home > h2
+#onderwijs_home, #buitenspelen_home
 {
-    float: right;
-    clear: both;
+    display: grid;
+    grid-template-columns: auto 40%;
+    padding: 2%;
+    grid-gap: 10px;
+    #titel_onderwijs_home, #titel_buitenspelen_home
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #tekst_onderwijs_home, #tekst_buitenspelen_home
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        margin-top: 10%;
+        width: 100%;
+    }
+    .foto_home1
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    .foto_home1_img
+    {
+        width: 100%;
+    }
+    .bijschrift1
+    {
+        text-align: left;
+    }
 }
 
-#sport_home > p, #sport_home > h2, #natuur_home > p, #natuur_home > h2
+#sport_home, #natuur_home
 {
-    float: left;
-    clear: both;
-}
-
-#onderwijs_home > h2, #onderwijs_home > figure > a > img, 
-#buitenspelen_home > h2, #buitenspelen_home > figure > a > img,
-#sport_home > h2, #sport_home > figure > a > img,
-#natuur_home > h2, #natuur_home > figure > a > img
-{
-    margin-top: 7.1%;
-}
-
-#onderwijs_home > p, #onderwijs_home > figure > figcaption, 
-#buitenspelen_home > p, #buitenspelen_home > figure > figcaption
-{
-    margin-bottom: 7.1%;
-}
-
-#onderwijs_home > h2, #onderwijs_home > figure > a > img, #onderwijs_home > figure > figcaption,
-#buitenspelen_home > h2, #buitenspelen_home > figure > a > img, #buitenspelen_home > figure > figcaption,
-#sport_home > p, #sport_home > h2,
-#natuur_home > p, #natuur_home > h2
-{
-    margin-left: 4.1%;
-}
-
-#onderwijs_home > h2
-{
-    margin-right: 23.1%;
-}
-
-#buitenspelen_home > h2
-{
-    margin-right: 18.7%;
-}
-
-#onderwijs_home > p,
-#buitenspelen_home > p,
-#sport_home > p,
-#natuur_home > p
-{
-    margin-right: 4.1%;
-}
-
-#natuur_home > figure > figcaption
-{
-    margin-left: 80.5%
-}
-
-#sport_home > figure > figcaption
-{
-    margin-left: 78.5%
+    display: grid;
+    grid-template-columns: 40% auto;
+    padding: 2%;
+    grid-gap: 10px;
+    #titel_sport_home, #titel_natuur_home
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    #tekst_sport_home, #tekst_natuur_home
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 10%;
+        width: 100%;
+    }
+    .foto_home2
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .foto_home2_img
+    {
+        width: 100%;
+    }
+    .bijschrift2
+    {
+        text-align: right;
+    }
 }
 
 #bedrijfs_uitstraling > a > img
@@ -1066,6 +1081,67 @@ aside
         grid-column: 1 / 2;
         grid-row: 8 / 9;
     }
+}
+
+#belangrijke_tekst_contact
+{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#onbelangrijke_tekst_contact
+{
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#formulier > form
+{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#aanhef, #man1, #man2, #vrouw1, #vrouw2, #ontvanger1, #ontvanger2
+{
+    padding-top: 5%;
+}
+
+#man1, #vrouw1, #ontvanger1
+{
+    height: 50%;
+    margin-top: 10%;
+}
+
+#naam1, #naam2, #e-mailadres1, #e-mailadres2, #telefoonnummer1, #telefoonnummer2
+{
+    margin-top: 10%;
+}
+
+#vraag
+{
+    padding-top: 20%
+}
+
+#groot_invoerveld
+{
+    padding-top: 10%;
+    padding-right: 20%;
+}
+
+#uitleg_gebruiker
+{
+    padding-top: 2%;
+}
+
+#verzendknop
+{
+    margin-top: 10%;
+    margin-bottom: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 /* De code voor de verschillende toning van de desktop en mobiele variant (code hier in zetten) */
