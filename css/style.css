@@ -1236,11 +1236,12 @@ footer > section
     width: 200px;
     text-align: center;
     color: #FFFFFF;
-    > p
-    {
-    background-color: #000000;
-    padding: 5%;
-    }
+}
+
+#cookies > p
+{
+background-color: #000000;
+padding: 5%;
 }
 
 /* Verberg zoekvenster, zodra deze op een lagere regel komt te staan */
