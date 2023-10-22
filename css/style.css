@@ -319,28 +319,28 @@ footer > section > p > strong
     grid-template-columns: auto 40%;
     padding: 2%;
     grid-gap: 10px;
-    #titel_onderwijs_home, #titel_buitenspelen_home
+    > #titel_onderwijs_home, > #titel_buitenspelen_home
     {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
     }
-    #tekst_onderwijs_home, #tekst_buitenspelen_home
+    > #tekst_onderwijs_home, > #tekst_buitenspelen_home
     {
         grid-column: 2 / 3;
         grid-row: 1 / 2;
         margin-top: 10%;
         width: 100%;
     }
-    .foto_home1
+    > .foto_home1
     {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
     }
-    .foto_home1_img
+    > .foto_home1_img
     {
         width: 100%;
     }
-    .bijschrift1
+    > .bijschrift1
     {
         text-align: left;
     }
