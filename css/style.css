@@ -335,11 +335,11 @@ footer > section > p > strong
     {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
-        .foto_home1_img
+        > .foto_home1_img
         {
             width: 100%;
         }
-        .bijschrift1
+        > .bijschrift1
         {
             text-align: left;
         }
