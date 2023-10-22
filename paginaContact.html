@@ -51,23 +51,25 @@
                     <p id="onbelangrijke_tekst_contact">* Velden zijn verplicht</p>
                 </section>
                 <form action="/721150.github.io/"> 
-                    <legend id="aanhef">Uw aanhef: <i>*</i></legend>
-                    <input type= "radio" id="man1" name="aanhef" value="de heer">
-                    <label id="man2" for="man">De heer</label>
-                    <input type= "radio" id="vrouw1" name="aanhef" value="mevrouw">
-                    <label id="vrouw2" for="vrouw">Mevrouw</label>
-                    <input type= "radio" id="ontvanger1" name="aanhef" value="beste">
-                    <label id="ontvanger2" for="ontvanger">Beste</label>
-                    <label id="naam1" for="naam">Uw naam: <i>*</i></label>
-                    <input type="text" name="naam" id="naam2" placeholder="Sarah Schaper">
-                    <label id="e-mailadres1" for="e-mailadres">Uw e-mailadres: <i>*</i></label>
-                    <input type="email" value="email" name="e-mailadres" id="e-mailadres2" placeholder="sschaper@inholland.nl">
-                    <label id="telefoonnummer1" for="telefoonnummer">Uw telefoonnummer:</label>
-                    <input type="text" name="telefoonnummer" id="telefoonnummer2" placeholder="0612345678">
-                    <label id="vraag" for="vraag">Uw vraag/opmerking: <i>*</i></label>
-                    <textarea name="vraag" id="groot_invoerveld"></textarea>
-                    <p id="uitleg_gebruiker">Wij proberen u binnen 5 werkdagen een reactie te geven.</p>
-                    <input id="verzendknop" type="submit" value="submit">
+                    <fieldset>
+                        <legend id="aanhef">Uw aanhef: <i>*</i></legend>
+                        <input type= "radio" id="man1" name="aanhef" value="de heer">
+                        <label id="man2" for="man1">De heer</label>
+                        <input type= "radio" id="vrouw1" name="aanhef" value="mevrouw">
+                        <label id="vrouw2" for="vrouw1">Mevrouw</label>
+                        <input type= "radio" id="ontvanger1" name="aanhef" value="beste">
+                        <label id="ontvanger2" for="ontvanger1">Beste</label>
+                        <label id="naam1" for="naam2">Uw naam: <i>*</i></label>
+                        <input type="text" name="naam" id="naam2" placeholder="Sarah Schaper">
+                        <label id="e-mailadres1" for="e-mailadres2">Uw e-mailadres: <i>*</i></label>
+                        <input type="email" value="email" name="e-mailadres" id="e-mailadres2" placeholder="sschaper@inholland.nl">
+                        <label id="telefoonnummer1" for="telefoonnummer2">Uw telefoonnummer:</label>
+                        <input type="text" name="telefoonnummer" id="telefoonnummer2" placeholder="0612345678">
+                        <label id="vraag" for="groot_invoerveld">Uw vraag/opmerking: <i>*</i></label>
+                        <textarea name="vraag" id="groot_invoerveld"></textarea>
+                        <p id="uitleg_gebruiker">Wij proberen u binnen 5 werkdagen een reactie te geven.</p>
+                        <input id="verzendknop" type="submit" value="submit">
+                    </fieldset>
                 </form>
             </section>
         </main>
