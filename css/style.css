@@ -1217,8 +1217,6 @@ footer > section
 /* Verberg zoekvenster, zodra deze op een lagere regel komt te staan */
 @media screen and (max-width: 1250px) 
 {
-    /* Code voor de mobiele variant */
-    /* Elementen die niet op de mobiele variant worden getoont */
     #bedrijfs_uitstraling > form
     {
         display: none;
@@ -1228,7 +1226,6 @@ footer > section
 /* Maak navigatie kleiner, zodra deze op een lagere regel komt te staan */
 @media screen and (max-width: 1270px) 
 {
-    /* Code voor de desktop variant */
     #hoofdmenu > ul > li > a
     {
     width: 16.4%;
