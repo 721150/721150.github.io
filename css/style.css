@@ -51,7 +51,7 @@ h2, #introVerwijzing, form
 nav > ul > li > a, nav > ul > li, nav > ul, 
 article > p, article > p > a, article > h2, article > figure, article > figure > a ,article > figure > figcaption, article > ul, article > ul > li, article > ul > li > a, article > ol, article > ol > li, article > ol > li > a,
 footer > section > a, footer > section > p, footer > section, footer > section > p > strong,
-form > p, i, form > label, #verzendknop, form, #formulier > section > p, #formulier > section, #home_artiekel_belangrijk, form > legend > label, form > legend,
+form > fieldset > p, i, form > fieldset > label, #verzendknop, form, #formulier > section > p, #formulier > section, #home_artiekel_belangrijk, form > fieldset > legend > label, form > fieldset > legend, form > fieldset,
 aside > a, aside > img, #introVerwijzing, aside > p,
 #tekst_onderwijs_zonder_kleur1, #tekst_onderwijs_zonder_kleur2
 {
@@ -997,7 +997,7 @@ aside
     }
 }
 
-#formulier > form
+#formulier > form > fieldset
 {
     display: grid;
     grid-template-columns: 50% auto auto auto auto auto auto;
@@ -1195,4 +1195,21 @@ footer > section
         display: none;
     }
 }
-  
+
+/* Code voor cookie melding */
+#cookies
+{
+    height: 0px;
+    position: relative;
+    z-index: 9999;
+    bottom: 100px;
+    left: 80%;
+    width: 200px;
+    text-align: center;
+    color: #FFFFFF;
+    > p
+    {
+    background-color: #000000;
+    padding: 5%;
+    }
+}
