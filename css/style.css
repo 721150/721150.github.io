@@ -12,6 +12,12 @@
     border-width: 0px;
 }
 
+/* Verberg afbeeldingen voor mobiel */
+.mobiel
+{
+    display: none;
+}
+
 /* De juiste lettertypes en grotte van teksten toewijzen */
 body
 {
@@ -1234,7 +1240,7 @@ footer > section
     
     #welkom_website > h1
     {
-        font-size: 1em;
+        font-size: 1.5em;
     }
     
     #hoofdmenu > ul > li > a
@@ -1255,11 +1261,6 @@ footer > section
     margin-top: 5%;
     }
     
-    #formulier
-    {
-        margin: 10%;
-    }
-    
     #man1, #man2, #vrouw1, #vrouw2
     {
         padding-top: 0%;
@@ -1269,6 +1270,42 @@ footer > section
     {
         height: 60%;
         padding-bottom: 20%;
+    }
+    main
+    {
+        margin: 10%;
+    }
+    #welkom_website > h1
+    {
+        float: left;
+    }
+    h2
+    {
+        margin-top: 5%;
+    }
+    img
+    {
+        width: 100%;
+    }
+    figcaption
+    {
+        text-align: center;
+    }
+    figure
+    {
+        margin-top: 3%;
+    }
+    #tekst_onderwijs_zonder_kleur2 > ul, #tekst_onderwijs_met_kleur > ol
+    {
+        margin-left: 5%;
+    }
+    img
+    {
+        display: none;
+    }
+    .mobiel, #logo
+    {
+        display: block;
     }
 }
 
