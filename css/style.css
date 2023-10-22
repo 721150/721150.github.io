@@ -278,753 +278,6 @@ footer > section > p > strong
     margin-right: 1%;
 }
 
-#welkom_website > h1
-{
-    width: 14.9%;
-}
-
-#welkom_website > p
-{
-    width: 45.8%;
-}
-
-#onderwijs_home, #sport_home, #buitenspelen_home, #natuur_home
-{
-    width: 70.4%;
-    margin-top: 5%;
-    margin-bottom: 2%;
-}
-
-#onderwijs_home, #buitenspelen_home
-{
-    margin-left: 24.2%;
-}
-
-#sport_home, #natuur_home
-{
-    margin-left: 5.3%;
-}
-
-#section_home
-{
-    display: grid;
-    grid-template-areas: 
-    'onderwijs_home sport_home'
-    'buitenspelen_home natuur_home';
-}
-
-#onderwijs_home, #buitenspelen_home
-{
-    display: grid;
-    grid-template-columns: auto 40%;
-    padding: 2%;
-    grid-gap: 10px;
-}
-
-#onderwijs_home > #titel_onderwijs_home, #buitenspelen_home > #titel_buitenspelen_home
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-#onderwijs_home > #tekst_onderwijs_home, #buitenspelen_home > #tekst_buitenspelen_home
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-    margin-top: 10%;
-    width: 100%;
-}
-#onderwijs_home > .foto_home1, #buitenspelen_home > .foto_home1
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-
-#onderwijs_home > .foto_home1 > a > .foto_home1_img, #buitenspelen_home > .foto_home1 > a > .foto_home1_img
-{
-    width: 100%;
-}
-#onderwijs_home > .foto_home1 > .bijschrift1, #buitenspelen_home > .foto_home1 > .bijschrift1
-{
-    text-align: left;
-}
-
-#sport_home, #natuur_home
-{
-    display: grid;
-    grid-template-columns: 40% auto;
-    padding: 2%;
-    grid-gap: 10px;
-}
-
-#sport_home > #titel_sport_home, #natuur_home > #titel_natuur_home
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-#sport_home > #tekst_sport_home, #natuur_home > #tekst_natuur_home
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    margin-top: 10%;
-    width: 100%;
-}
-#sport_home > .foto_home2, #natuur_home > .foto_home2
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-#sport_home > .foto_home2 > a > .foto_home2_img, #natuur_home > .foto_home2 > a > .foto_home2_img
-{
-    width: 100%;
-}
-#sport_home > .bijschrift2, #natuur_home > .bijschrift
-{
-    text-align: right;
-}
-
-#bedrijfs_uitstraling > a > img
-{
-    margin-top: 0.9%;
-    margin-bottom: 0.9%;
-}
-
-#welkom_website > h1
-{
-    float: left;
-    margin-left: 19%;
-    margin-top: 2%;
-}
-
-#welkom_website > p
-{
-    margin-top: 2.2%;
-    float: left;
-}
-
-section
-{
-    clear: both;
-}
-
-#titel_pagina
-{
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 1%;
-}
-
-#formulier
-{
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 1%;
-}
-
-#tekst_onderwijs_zonder_kleur1, #tekst_onderwijs_zonder_kleur2, #tekst_onderwijs_met_kleur,
-#tekst_natuur_boven1, #tekst_natuur_boven2, #tekst_natuur_onder,
-#tekst_speelplekken_boven1, #tekst_speelplekken_boven2, #tekst_speelplekken_onder,
-#tekst_sport_boven1, #tekst_sport_boven2, #tekst_sport_onder1, #tekst_sport_onder2,
-aside
-{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 2%;
-    margin-top: 2%;
-}
-
-#section_natuur, #section_speelplekken, #section_sport, #section_onderwijs
-{
-    display: grid;
-    grid-template-rows: auto auto;
-}
-
-#section_natuur > #tekst_natuur_boven1, #section_speelplekken > #tekst_speelplekken_boven1, #section_sport > #tekst_sport_boven1  
-{
-    grid-row: 1 / 2;
-    grid-column: 1 / 2
-}
-#section_onderwijs > #tekst_onderwijs_zonder_kleur1
-{
-    grid-row: 1 / 2;
-    grid-column: 1 / 3;
-}
-#section_natuur > #tekst_natuur_boven2, #section_speelplekken > #tekst_speelplekken_boven2, #section_sport > #tekst_sport_boven2
-{
-    grid-row: 1 / 2;
-    grid-column: 2 / 3
-}
-#section_onderwijs > #tekst_onderwijs_met_kleur
-{
-    grid-row: 2 / 3;
-    grid-column: 1 / 3;
-}
-#section_onderwijs > #tekst_onderwijs_zonder_kleur2
-{
-    grid-row: 3 / 3;
-    grid-column: 1 / 3;
-}
-#section_natuur > #tekst_natuur_onder, #section_speelplekken > #tekst_speelplekken_onder
-{
-    grid-row: 2 / 3;
-    grid-column: 1 / 3
-}
-#section_sport > #tekst_sport_onder1 
-{
-    grid-row: 2 / 3;
-    grid-column: 1 / 2
-}
-#section_sport > #tekst_sport_onder2
-{
-    grid-row: 2 / 3;
-    grid-column: 2 / 3
-}
-
-#tekst_natuur_boven1, #tekst_speelplekken_boven1, #tekst_sport_boven1, #tekst_sport_onder1
-{
-    margin-left: 20%;
-    margin-right: 2.5%;
-}
-
-#tekst_natuur_boven2, #tekst_speelplekken_boven2, #tekst_sport_boven2, #tekst_sport_onder2
-{
-    margin-left: 1%;
-    margin-right: 20%;
-}
-
-#tekst_natuur_boven1, #tekst_natuur_boven2, #tekst_speelplekken_boven1, #tekst_speelplekken_boven2, #tekst_sport_boven2, #tekst_sport_onder2
-{
-    display: grid;
-    grid-template-rows: auto auto auto;
-    padding: 1%;
-    grid-gap: 10px;
-}
-
-/* begin aan te passen code */
-#tekst_natuur_boven1 > .titel_natuur, #tekst_natuur_boven2 > .titel_natuur,  
-#tekst_speelplekken_boven1 > .titel_speelplekken, #tekst_speelplekken_boven2 > .titel_speelplekken,
-#tekst_sport_boven2 > .titel_sport, #tekst_sport_onder2 > .titel_sport
-{
-    grid-row: 1 / 2;
-}
-#tekst_natuur_boven1 > .tekst_natuur, #tekst_natuur_boven2 > .tekst_natuur,
-#tekst_speelplekken_boven1 > .tekst_speelplekken, #tekst_speelplekken_boven2 > .tekst_speelplekken,
-#tekst_sport_boven2 > .tekst_sport, #tekst_sport_onder2 > .tekst_sport
-{
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#tekst_natuur_boven1 > .foto_natuur, #tekst_natuur_boven2 > .foto_natuur,
-#tekst_speelplekken_boven1 > .foto_speelplekken, #tekst_speelplekken_boven2 > .foto_speelplekken,
-#tekst_sport_boven2 > .foto_sport, #tekst_sport_onder2 > .foto_sport
-{
-    grid-row: 3 / 4;
-}
-#tekst_natuur_boven1 > .foto_natuur > .foto_natuur_img, #tekst_natuur_boven2 > .foto_natuur > .foto_natuur_img,
-#tekst_speelplekken_boven1 > .foto_speelplekken > .foto_speelplekken_img, #tekst_speelplekken_boven2 > .foto_speelplekken > .foto_speelplekken_img, 
-#tekst_sport_boven2 > .foto_sport > .foto_sport_img, #tekst_sport_onder2 > .foto_sport > .foto_sport_img
-{
-    width: 100%;
-}
-#tekst_natuur_boven1 > .foto_natuur > .bijschrift, #tekst_natuur_boven2 > .foto_natuur > .bijschrift,
-#tekst_speelplekken_boven1 > .foto_speelplekken > .bijschrift, #tekst_speelplekken_boven2 > .foto_speelplekken > .bijschrift,
-#tekst_sport_boven2 > .foto_sport > .bijschrift, #tekst_sport_onder2 > .foto_sport > .bijschrift
-{
-    text-align: right;
-}
-
-/* einde aan te passen code */
-
-#tekst_sport_boven1, #tekst_sport_onder1
-{
-    display: grid;
-    grid-template-columns: 49% 49%;
-    padding: 1%;
-    grid-gap: 10px;
-}
-
-#tekst_sport_boven1 > .titel_sport, #tekst_sport_onder1 > .titel_sport
-{
-    grid-row: 1 / 2;
-    grid-column: 1 / 3;
-}
-#tekst_sport_boven1 > .tekst_sport, #tekst_sport_onder1 > .tekst_sport
-{
-    grid-row: 2 / 3;
-    grid-column: 1 / 3;
-    width: 100%;
-}
-#tekst_sport_boven1 > #foto_sport1, #tekst_sport_onder1 > #foto_sport3
-{
-    grid-row: 3 / 4;
-    grid-column: 1 / 2;
-}
-#tekst_sport_boven1 > #foto_sport2, #tekst_sport_onder1 > #foto_sport4
-{
-    grid-row: 3 / 4;
-    grid-column: 2 / 3;
-}
-#tekst_sport_boven1 > #foto_sport1 > .foto_sport_img, #tekst_sport_boven1 > #foto_sport2 > .foto_sport_img, #tekst_sport_onder1 > #foto_sport3 > .foto_sport_img, #tekst_sport_onder1 > #foto_sport3 > .foto_sport_img
-{
-    width: 100%;
-}
-#tekst_sport_boven1 > #foto_sport1 > .bijschrift, #tekst_sport_boven1 > #foto_sport2 > .bijschrift, #tekst_sport_onder1 > #foto_sport4 > .bijschrift, #tekst_sport_onder1 > #foto_sport4 > .bijschrift
-{
-    text-align: right;
-}
-
-#tekst_natuur_onder
-{
-    display: grid;
-    grid-template-columns: auto 16% 16% 16%;
-    padding: 1%;
-    grid-gap: 10px;
-}
-
-#tekst_natuur_onder > .titel_natuur
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-#tekst_natuur_onder > .tekst_natuur
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    margin-top: 5%;
-}
-#tekst_natuur_onder > #foto_natuur1
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-}
-#tekst_natuur_onder > #foto_natuur2
-{
-    grid-column: 3 / 4;
-    grid-row: 1 / 3;
-}
-#tekst_natuur_onder > #foto_natuur1
-{
-    grid-column: 4 / 5;
-    grid-row: 1 / 3;
-}
-#tekst_natuur_onder > #foto_natuur1 > .foto_natuur_img, #tekst_natuur_onder > #foto_natuur2 > .foto_natuur_img, #tekst_natuur_onder > #foto_natuur3 > .foto_natuur_img
-{
-    width: 100%;
-}
-#tekst_natuur_onder > #foto_natuur1 > .bijschrift, #tekst_natuur_onder > #foto_natuur2 > .bijschrift, #tekst_natuur_onder > #foto_natuur3 > .bijschrift
-{
-    text-align: right;
-}
-
-#tekst_speelplekken_onder
-{
-    display: grid;
-    grid-template-columns: auto 24% 24%;
-    padding: 1%;
-    grid-gap: 10px;
-}
-
-#tekst_speelplekken_onder > .titel_speelplekken
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-#tekst_speelplekken_onder > .tekst_speelplekken
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    margin-top: 5%;
-}
-#tekst_speelplekken_onder > #foto_speelplekken1
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-}
-#tekst_speelplekken_onder > #foto_speelplekken2
-{
-    grid-column: 3 / 4;
-    grid-row: 1 / 3;
-}
-#tekst_speelplekken_onder > #foto_speelplekken1 > .foto_speelplekken_img, #tekst_speelplekken_onder > #foto_speelplekken2 > .foto_speelplekken_img
-{
-    width: 100%;
-}
-#tekst_speelplekken_onder > #foto_speelplekken1 > .bijschrift, #tekst_speelplekken_onder > #foto_speelplekken2 > .bijschrift
-{
-    text-align: right;
-}
-
-#tekst_onderwijs_zonder_kleur1
-{
-    display: grid;
-    grid-template-columns: 50% auto;
-    padding: 1%;
-    grid-gap: 10px;
-}
-
-#tekst_onderwijs_zonder_kleur1 > .titel_onderwijs
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-#tekst_onderwijs_zonder_kleur1 > .tekst_onderwijs
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    margin-top: 5%;
-}
-#tekst_onderwijs_zonder_kleur1 > .foto_onderwijs
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-}
-#tekst_onderwijs_zonder_kleur1 > .foto_onderwijs > .foto_onderwijs_img
-{
-    width: 100%;
-}
-#tekst_onderwijs_zonder_kleur1 > .foto_onderwijs > .bijschrift
-{
-    text-align: right;
-}
-
-#tekst_onderwijs_zonder_kleur2
-{
-    display: grid;
-    grid-template-columns: auto 16% 16% 16%;
-    padding: 1%;
-    grid-gap: 10px;
-}
-
-#tekst_onderwijs_zonder_kleur2 > .titel_onderwijs
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-#tekst_onderwijs_zonder_kleur2 > .tekst_onderwijs
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    margin-top: 5%;
-}
-#tekst_onderwijs_zonder_kleur2 > #tekst_onderwijs2
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    margin-top: 13%;
-    margin-left: 3%;
-}
-#tekst_onderwijs_zonder_kleur2 > #foto_onderwijs3
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-}
-#tekst_onderwijs_zonder_kleur2 > #foto_onderwijs4
-{
-    grid-column: 3 / 4;
-    grid-row: 1 / 3;
-}
-#tekst_onderwijs_zonder_kleur2 > #foto_onderwijs4
-{
-    grid-column: 4 / 5;
-    grid-row: 1 / 3;
-}
-#tekst_onderwijs_zonder_kleur2 > #foto_onderwijs3 > .foto_onderwijs_img, #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs4 > .foto_onderwijs_img, #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs5 > .foto_onderwijs_img
-{
-    width: 100%;
-}
-#tekst_onderwijs_zonder_kleur2 > #foto_onderwijs3 > .bijschrift, #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs4 > .bijschrift, #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs5 > .bijschrift
-{
-    text-align: right;
-}
-
-#tekst_onderwijs_met_kleur
-{
-    display: grid;
-    grid-template-columns: 24% 24% auto;
-    padding: 1%;
-    grid-gap: 10px;
-}
-
-#tekst_onderwijs_met_kleur > .titel_onderwijs
-{
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-}
-#tekst_onderwijs_met_kleur > .tekst_onderwijs
-{
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-    margin-top: 5%;
-}
-#tekst_onderwijs_met_kleur > #tekst_onderwijs1
-{
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-    margin-top: 13%;
-    margin-left: 3%;
-}
-#tekst_onderwijs_met_kleur > #foto_onderwijs1
-{
-    grid-column: 1 / 2;
-    grid-row: 1 / 3;
-}
-#tekst_onderwijs_met_kleur > #foto_onderwijs2
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 3;
-}
-#tekst_onderwijs_met_kleur > #foto_onderwijs1 > .foto_onderwijs_img, #tekst_onderwijs_met_kleur > #foto_onderwijs2 > .foto_onderwijs_img
-{
-    width: 100%;
-}
-#tekst_onderwijs_met_kleur > #foto_onderwijs1 > .bijschrift, #tekst_onderwijs_met_kleur > #foto_onderwijs2 > .bijschrift
-{
-    text-align: right;
-}
-
-#aside_onderwijs
-{
-    display: grid;
-    grid-template-columns: auto 22% 22% 22%;
-    padding: 1%;
-    grid-gap: 10px;
-}
-
-#aside_onderwijs > #introVerwijzing
-{
-    grid-row: 1 / 5;   
-} 
-#aside_onderwijs > #link_Sport
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-#aside_onderwijs > #link_Buitenspelen
-{
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-}
-#aside_onderwijs > #link_Natuur
-{
-    grid-column: 4 / 5;
-    grid-row: 1 / 2;
-}
-#aside_onderwijs > a > #foto_Sport
-{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_onderwijs > a > #foto_Buitenspelen
-{
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_onderwijs > a > #foto_Natuur
-{
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_onderwijs > #naam_Sport
-{
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-}
-#aside_onderwijs > #naam_Buitenspelen
-{
-    grid-column: 3 / 4;
-    grid-row: 3 / 4;
-}
-#aside_onderwijs > #naam_Natuur
-{
-    grid-column: 4 / 5;
-    grid-row: 3 / 4;
-}
-
-#aside_natuur
-{
-    display: grid;
-    grid-template-columns: auto 22% 22% 22%;
-    padding: 1%;
-    grid-gap: 10px;
-}
-
-#aside_natuur > #introVerwijzing
-{
-    grid-row: 1 / 5;   
-} 
-#aside_natuur > #link_Onderwijs
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-#aside_natuur > #link_Sport
-{
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-}
-#aside_natuur > #link_Buitenspelen
-{
-    grid-column: 4 / 5;
-    grid-row: 1 / 2;
-}
-#aside_natuur > a > #foto_Onderwijs
-{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_natuur > a > #foto_Sport
-{
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_natuur > a > #foto_Buitenspelen
-{
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_natuur > #naam_Onderwijs
-{
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-}
-#aside_natuur > #naam_Sport
-{
-    grid-column: 3 / 4;
-    grid-row: 3 / 4;
-}
-#aside_natuur > #naam_Buitenspelen
-{
-    grid-column: 4 / 5;
-    grid-row: 3 / 4;
-}
-
-#aside_speelplekken
-{
-    display: grid;
-    grid-template-columns: auto 22% 22% 22%;
-    padding: 1%;
-    grid-gap: 10px;
-}
-
-#aside_speelplekken > #introVerwijzing
-{
-    grid-row: 1 / 5;   
-} 
-#aside_speelplekken > #link_Onderwijs
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-#aside_speelplekken > #link_Sport
-{
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-}
-#aside_speelplekken > #link_Natuur
-{
-    grid-column: 4 / 5;
-    grid-row: 1 / 2;
-}
-#aside_speelplekken > a > #foto_Onderwijs
-{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_speelplekken > a > #foto_Sport
-{
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_speelplekken > a > #foto_Natuur
-{
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_speelplekken > #naam_Onderwijs
-{
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-}
-#aside_speelplekken > #naam_Sport
-{
-    grid-column: 3 / 4;
-    grid-row: 3 / 4;
-}
-#aside_speelplekken > #naam_Natuur
-{
-    grid-column: 4 / 5;
-    grid-row: 3 / 4;
-}
-
-#aside_sport
-{
-    display: grid;
-    grid-template-columns: auto 22% 22% 22%;
-    padding: 1%;
-    grid-gap: 10px;
-}
-
-#aside_sport > #introVerwijzing
-{
-    grid-row: 1 / 5;   
-} 
-#aside_sport > #link_Onderwijs
-{
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-#aside_sport > #link_Buitenspelen
-{
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-}
-#aside_sport > #link_Natuur
-{
-    grid-column: 4 / 5;
-    grid-row: 1 / 2;
-}
-#aside_sport > a > #foto_Onderwijs
-{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_sport > a > #foto_Buitenspelen
-{
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_sport > a > #foto_Natuur
-{
-    grid-column: 4 / 5;
-    grid-row: 2 / 3;
-    width: 100%;
-}
-#aside_sport > #naam_Onderwijs
-{
-    grid-column: 2 / 3;
-    grid-row: 3 / 4;
-}
-#aside_sport > #naam_Buitenspelen
-{
-    grid-column: 3 / 4;
-    grid-row: 3 / 4;
-}
-#aside_sport > #naam_Natuur
-{
-    grid-column: 4 / 5;
-    grid-row: 3 / 4;
-}
-
 #formulier > form > fieldset
 {
     display: grid;
@@ -1212,16 +465,793 @@ footer > section
 @media screen and (min-width: 769px) 
 {
     /* Code voor de desktop variant */
-    /* Hier staat geen apparte code, hiervoor wordt de bovenstaande code gebruikt (die is gemaakt voor de desktop variant) */
+    #welkom_website > h1
+    {
+        width: 14.9%;
+    }
+
+    #welkom_website > p
+    {
+        width: 45.8%;
+    }
+
+    #onderwijs_home, #sport_home, #buitenspelen_home, #natuur_home
+    {
+        width: 70.4%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+
+    #onderwijs_home, #buitenspelen_home
+    {
+        margin-left: 24.2%;
+    }
+
+    #sport_home, #natuur_home
+    {
+        margin-left: 5.3%;
+    }
+
+    #section_home
+    {
+        display: grid;
+        grid-template-areas: 
+        'onderwijs_home sport_home'
+        'buitenspelen_home natuur_home';
+    }
+
+    #onderwijs_home, #buitenspelen_home
+    {
+        display: grid;
+        grid-template-columns: auto 40%;
+        padding: 2%;
+        grid-gap: 10px;
+    }
+
+    #onderwijs_home > #titel_onderwijs_home, #buitenspelen_home > #titel_buitenspelen_home
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #onderwijs_home > #tekst_onderwijs_home, #buitenspelen_home > #tekst_buitenspelen_home
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        margin-top: 10%;
+        width: 100%;
+    }
+    #onderwijs_home > .foto_home1, #buitenspelen_home > .foto_home1
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    #onderwijs_home > .foto_home1 > a > .foto_home1_img, #buitenspelen_home > .foto_home1 > a > .foto_home1_img
+    {
+        width: 100%;
+    }
+    #onderwijs_home > .foto_home1 > .bijschrift1, #buitenspelen_home > .foto_home1 > .bijschrift1
+    {
+        text-align: left;
+    }
+
+    #sport_home, #natuur_home
+    {
+        display: grid;
+        grid-template-columns: 40% auto;
+        padding: 2%;
+        grid-gap: 10px;
+    }
+
+    #sport_home > #titel_sport_home, #natuur_home > #titel_natuur_home
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    #sport_home > #tekst_sport_home, #natuur_home > #tekst_natuur_home
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 10%;
+        width: 100%;
+    }
+    #sport_home > .foto_home2, #natuur_home > .foto_home2
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #sport_home > .foto_home2 > a > .foto_home2_img, #natuur_home > .foto_home2 > a > .foto_home2_img
+    {
+        width: 100%;
+    }
+    #sport_home > .bijschrift2, #natuur_home > .bijschrift
+    {
+        text-align: right;
+    }
+
+    #bedrijfs_uitstraling > a > img
+    {
+        margin-top: 0.9%;
+        margin-bottom: 0.9%;
+    }
+
+    #welkom_website > h1
+    {
+        float: left;
+        margin-left: 19%;
+        margin-top: 2%;
+    }
+
+    #welkom_website > p
+    {
+        margin-top: 2.2%;
+        float: left;
+    }
+
+    section
+    {
+        clear: both;
+    }
+
+    #titel_pagina
+    {
+        text-align: center;
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+
+    #formulier
+    {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 1%;
+    }
+
+    #tekst_onderwijs_zonder_kleur1, #tekst_onderwijs_zonder_kleur2, #tekst_onderwijs_met_kleur,
+    #tekst_natuur_boven1, #tekst_natuur_boven2, #tekst_natuur_onder,
+    #tekst_speelplekken_boven1, #tekst_speelplekken_boven2, #tekst_speelplekken_onder,
+    #tekst_sport_boven1, #tekst_sport_boven2, #tekst_sport_onder1, #tekst_sport_onder2,
+    aside
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    #section_natuur, #section_speelplekken, #section_sport, #section_onderwijs
+    {
+        display: grid;
+        grid-template-rows: auto auto;
+    }
+
+    #section_natuur > #tekst_natuur_boven1, #section_speelplekken > #tekst_speelplekken_boven1, #section_sport > #tekst_sport_boven1  
+    {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2
+    }
+    #section_onderwijs > #tekst_onderwijs_zonder_kleur1
+    {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+    }
+    #section_natuur > #tekst_natuur_boven2, #section_speelplekken > #tekst_speelplekken_boven2, #section_sport > #tekst_sport_boven2
+    {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3
+    }
+    #section_onderwijs > #tekst_onderwijs_met_kleur
+    {
+        grid-row: 2 / 3;
+        grid-column: 1 / 3;
+    }
+    #section_onderwijs > #tekst_onderwijs_zonder_kleur2
+    {
+        grid-row: 3 / 3;
+        grid-column: 1 / 3;
+    }
+    #section_natuur > #tekst_natuur_onder, #section_speelplekken > #tekst_speelplekken_onder
+    {
+        grid-row: 2 / 3;
+        grid-column: 1 / 3
+    }
+    #section_sport > #tekst_sport_onder1 
+    {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2
+    }
+    #section_sport > #tekst_sport_onder2
+    {
+        grid-row: 2 / 3;
+        grid-column: 2 / 3
+    }
+
+    #tekst_natuur_boven1, #tekst_speelplekken_boven1, #tekst_sport_boven1, #tekst_sport_onder1
+    {
+        margin-left: 20%;
+        margin-right: 2.5%;
+    }
+
+    #tekst_natuur_boven2, #tekst_speelplekken_boven2, #tekst_sport_boven2, #tekst_sport_onder2
+    {
+        margin-left: 1%;
+        margin-right: 20%;
+    }
+
+    #tekst_natuur_boven1, #tekst_natuur_boven2, #tekst_speelplekken_boven1, #tekst_speelplekken_boven2, #tekst_sport_boven2, #tekst_sport_onder2
+    {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        padding: 1%;
+        grid-gap: 10px;
+    }
+
+    #tekst_natuur_boven1 > .titel_natuur, #tekst_natuur_boven2 > .titel_natuur,  
+    #tekst_speelplekken_boven1 > .titel_speelplekken, #tekst_speelplekken_boven2 > .titel_speelplekken,
+    #tekst_sport_boven2 > .titel_sport, #tekst_sport_onder2 > .titel_sport
+    {
+        grid-row: 1 / 2;
+    }
+    #tekst_natuur_boven1 > .tekst_natuur, #tekst_natuur_boven2 > .tekst_natuur,
+    #tekst_speelplekken_boven1 > .tekst_speelplekken, #tekst_speelplekken_boven2 > .tekst_speelplekken,
+    #tekst_sport_boven2 > .tekst_sport, #tekst_sport_onder2 > .tekst_sport
+    {
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #tekst_natuur_boven1 > .foto_natuur, #tekst_natuur_boven2 > .foto_natuur,
+    #tekst_speelplekken_boven1 > .foto_speelplekken, #tekst_speelplekken_boven2 > .foto_speelplekken,
+    #tekst_sport_boven2 > .foto_sport, #tekst_sport_onder2 > .foto_sport
+    {
+        grid-row: 3 / 4;
+    }
+    #tekst_natuur_boven1 > .foto_natuur > .foto_natuur_img, #tekst_natuur_boven2 > .foto_natuur > .foto_natuur_img,
+    #tekst_speelplekken_boven1 > .foto_speelplekken > .foto_speelplekken_img, #tekst_speelplekken_boven2 > .foto_speelplekken > .foto_speelplekken_img, 
+    #tekst_sport_boven2 > .foto_sport > .foto_sport_img, #tekst_sport_onder2 > .foto_sport > .foto_sport_img
+    {
+        width: 100%;
+    }
+    #tekst_natuur_boven1 > .foto_natuur > .bijschrift, #tekst_natuur_boven2 > .foto_natuur > .bijschrift,
+    #tekst_speelplekken_boven1 > .foto_speelplekken > .bijschrift, #tekst_speelplekken_boven2 > .foto_speelplekken > .bijschrift,
+    #tekst_sport_boven2 > .foto_sport > .bijschrift, #tekst_sport_onder2 > .foto_sport > .bijschrift
+    {
+        text-align: right;
+    }
+
+    #tekst_sport_boven1, #tekst_sport_onder1
+    {
+        display: grid;
+        grid-template-columns: 49% 49%;
+        padding: 1%;
+        grid-gap: 10px;
+    }
+
+    #tekst_sport_boven1 > .titel_sport, #tekst_sport_onder1 > .titel_sport
+    {
+        grid-row: 1 / 2;
+        grid-column: 1 / 3;
+    }
+    #tekst_sport_boven1 > .tekst_sport, #tekst_sport_onder1 > .tekst_sport
+    {
+        grid-row: 2 / 3;
+        grid-column: 1 / 3;
+        width: 100%;
+    }
+    #tekst_sport_boven1 > #foto_sport1, #tekst_sport_onder1 > #foto_sport3
+    {
+        grid-row: 3 / 4;
+        grid-column: 1 / 2;
+    }
+    #tekst_sport_boven1 > #foto_sport2, #tekst_sport_onder1 > #foto_sport4
+    {
+        grid-row: 3 / 4;
+        grid-column: 2 / 3;
+    }
+    #tekst_sport_boven1 > #foto_sport1 > .foto_sport_img, #tekst_sport_boven1 > #foto_sport2 > .foto_sport_img, #tekst_sport_onder1 > #foto_sport3 > .foto_sport_img, #tekst_sport_onder1 > #foto_sport4 > .foto_sport_img
+    {
+        width: 100%;
+    }
+    #tekst_sport_boven1 > #foto_sport1 > .bijschrift, #tekst_sport_boven1 > #foto_sport2 > .bijschrift, #tekst_sport_onder1 > #foto_sport4 > .bijschrift, #tekst_sport_onder1 > #foto_sport4 > .bijschrift
+    {
+        text-align: right;
+    }
+
+    #tekst_natuur_onder
+    {
+        display: grid;
+        grid-template-columns: auto 16% 16% 16%;
+        padding: 1%;
+        grid-gap: 10px;
+    }
+
+    #tekst_natuur_onder > .titel_natuur
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    #tekst_natuur_onder > .tekst_natuur
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 5%;
+    }
+    #tekst_natuur_onder > #foto_natuur1
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+    #tekst_natuur_onder > #foto_natuur2
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+    }
+    #tekst_natuur_onder > #foto_natuur1
+    {
+        grid-column: 4 / 5;
+        grid-row: 1 / 3;
+    }
+    #tekst_natuur_onder > #foto_natuur1 > .foto_natuur_img, #tekst_natuur_onder > #foto_natuur2 > .foto_natuur_img, #tekst_natuur_onder > #foto_natuur3 > .foto_natuur_img
+    {
+        width: 100%;
+    }
+    #tekst_natuur_onder > #foto_natuur1 > .bijschrift, #tekst_natuur_onder > #foto_natuur2 > .bijschrift, #tekst_natuur_onder > #foto_natuur3 > .bijschrift
+    {
+        text-align: right;
+    }
+
+    #tekst_speelplekken_onder
+    {
+        display: grid;
+        grid-template-columns: auto 24% 24%;
+        padding: 1%;
+        grid-gap: 10px;
+    }
+
+    #tekst_speelplekken_onder > .titel_speelplekken
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    #tekst_speelplekken_onder > .tekst_speelplekken
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 5%;
+    }
+    #tekst_speelplekken_onder > #foto_speelplekken1
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+    #tekst_speelplekken_onder > #foto_speelplekken2
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+    }
+    #tekst_speelplekken_onder > #foto_speelplekken1 > .foto_speelplekken_img, #tekst_speelplekken_onder > #foto_speelplekken2 > .foto_speelplekken_img
+    {
+        width: 100%;
+    }
+    #tekst_speelplekken_onder > #foto_speelplekken1 > .bijschrift, #tekst_speelplekken_onder > #foto_speelplekken2 > .bijschrift
+    {
+        text-align: right;
+    }
+
+    #tekst_onderwijs_zonder_kleur1
+    {
+        display: grid;
+        grid-template-columns: 50% auto;
+        padding: 1%;
+        grid-gap: 10px;
+    }
+
+    #tekst_onderwijs_zonder_kleur1 > .titel_onderwijs
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    #tekst_onderwijs_zonder_kleur1 > .tekst_onderwijs
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 5%;
+    }
+    #tekst_onderwijs_zonder_kleur1 > .foto_onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+    #tekst_onderwijs_zonder_kleur1 > .foto_onderwijs > .foto_onderwijs_img
+    {
+        width: 100%;
+    }
+    #tekst_onderwijs_zonder_kleur1 > .foto_onderwijs > .bijschrift
+    {
+        text-align: right;
+    }
+
+    #tekst_onderwijs_zonder_kleur2
+    {
+        display: grid;
+        grid-template-columns: auto 16% 16% 16%;
+        padding: 1%;
+        grid-gap: 10px;
+    }
+
+    #tekst_onderwijs_zonder_kleur2 > .titel_onderwijs
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    #tekst_onderwijs_zonder_kleur2 > .tekst_onderwijs
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 5%;
+    }
+    #tekst_onderwijs_zonder_kleur2 > #tekst_onderwijs2
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        margin-top: 13%;
+        margin-left: 3%;
+    }
+    #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs3
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+    #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs4
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3;
+    }
+    #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs4
+    {
+        grid-column: 4 / 5;
+        grid-row: 1 / 3;
+    }
+    #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs3 > .foto_onderwijs_img, #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs4 > .foto_onderwijs_img, #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs5 > .foto_onderwijs_img
+    {
+        width: 100%;
+    }
+    #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs3 > .bijschrift, #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs4 > .bijschrift, #tekst_onderwijs_zonder_kleur2 > #foto_onderwijs5 > .bijschrift
+    {
+        text-align: right;
+    }
+
+    #tekst_onderwijs_met_kleur
+    {
+        display: grid;
+        grid-template-columns: 24% 24% auto;
+        padding: 1%;
+        grid-gap: 10px;
+    }
+
+    #tekst_onderwijs_met_kleur > .titel_onderwijs
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    #tekst_onderwijs_met_kleur > .tekst_onderwijs
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        margin-top: 5%;
+    }
+    #tekst_onderwijs_met_kleur > #tekst_onderwijs1
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        margin-top: 13%;
+        margin-left: 3%;
+    }
+    #tekst_onderwijs_met_kleur > #foto_onderwijs1
+    {
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+    }
+    #tekst_onderwijs_met_kleur > #foto_onderwijs2
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+    #tekst_onderwijs_met_kleur > #foto_onderwijs1 > .foto_onderwijs_img, #tekst_onderwijs_met_kleur > #foto_onderwijs2 > .foto_onderwijs_img
+    {
+        width: 100%;
+    }
+    #tekst_onderwijs_met_kleur > #foto_onderwijs1 > .bijschrift, #tekst_onderwijs_met_kleur > #foto_onderwijs2 > .bijschrift
+    {
+        text-align: right;
+    }
+
+    #aside_onderwijs
+    {
+        display: grid;
+        grid-template-columns: auto 22% 22% 22%;
+        padding: 1%;
+        grid-gap: 10px;
+    }
+
+    #aside_onderwijs > #introVerwijzing
+    {
+        grid-row: 1 / 5;   
+    } 
+    #aside_onderwijs > #link_Sport
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #aside_onderwijs > #link_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    #aside_onderwijs > #link_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+    #aside_onderwijs > a > #foto_Sport
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_onderwijs > a > #foto_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_onderwijs > a > #foto_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_onderwijs > #naam_Sport
+    {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    #aside_onderwijs > #naam_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    #aside_onderwijs > #naam_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
+
+    #aside_natuur
+    {
+        display: grid;
+        grid-template-columns: auto 22% 22% 22%;
+        padding: 1%;
+        grid-gap: 10px;
+    }
+
+    #aside_natuur > #introVerwijzing
+    {
+        grid-row: 1 / 5;   
+    } 
+    #aside_natuur > #link_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #aside_natuur > #link_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    #aside_natuur > #link_Buitenspelen
+    {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+    #aside_natuur > a > #foto_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_natuur > a > #foto_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_natuur > a > #foto_Buitenspelen
+    {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_natuur > #naam_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    #aside_natuur > #naam_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    #aside_natuur > #naam_Buitenspelen
+    {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
+
+    #aside_speelplekken
+    {
+        display: grid;
+        grid-template-columns: auto 22% 22% 22%;
+        padding: 1%;
+        grid-gap: 10px;
+    }
+
+    #aside_speelplekken > #introVerwijzing
+    {
+        grid-row: 1 / 5;   
+    } 
+    #aside_speelplekken > #link_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #aside_speelplekken > #link_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    #aside_speelplekken > #link_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+    #aside_speelplekken > a > #foto_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_speelplekken > a > #foto_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_speelplekken > a > #foto_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_speelplekken > #naam_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    #aside_speelplekken > #naam_Sport
+    {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    #aside_speelplekken > #naam_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
+
+    #aside_sport
+    {
+        display: grid;
+        grid-template-columns: auto 22% 22% 22%;
+        padding: 1%;
+        grid-gap: 10px;
+    }
+
+    #aside_sport > #introVerwijzing
+    {
+        grid-row: 1 / 5;   
+    } 
+    #aside_sport > #link_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    #aside_sport > #link_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+    }
+    #aside_sport > #link_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 1 / 2;
+    }
+    #aside_sport > a > #foto_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_sport > a > #foto_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_sport > a > #foto_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 2 / 3;
+        width: 100%;
+    }
+    #aside_sport > #naam_Onderwijs
+    {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+    #aside_sport > #naam_Buitenspelen
+    {
+        grid-column: 3 / 4;
+        grid-row: 3 / 4;
+    }
+    #aside_sport > #naam_Natuur
+    {
+        grid-column: 4 / 5;
+        grid-row: 3 / 4;
+    }
 }
 
 @media screen and (max-width: 768px) 
 {
     /* Code voor de mobiele variant */
     /* Elementen die niet op de mobiele variant worden getoont */
-    #bedrijfs_uitstraling > form, #titel_pagina, #ontvanger1, #ontvanger1, #tekst_onderwijs_zonder_kleur1 > #foto_onderwijs
+    #bedrijfs_uitstraling > form, #titel_pagina, #ontvanger1, #ontvanger1, #tekst_onderwijs_zonder_kleur1 > #foto_onderwijs, #aside_onderwijs, #aside_natuur, #aside_speelplekken, #aside_sport, #cookies
     {
         display: none;
+    }
+    
+    /* De juiste grotte van teksten toewijzen */
+    
+    body
+    {
+        font-size: 12px;
+    }
+
+    h1
+    {
+        font-size: 2.5rem;
+    }
+    
+    #welkom_website > h1
+    {
+        font-size: 1em;
+    }
+    
+    #hoofdmenu > ul > li > a
+    {
+        font-size: 0.5em;
+    }
+
+    /* De juiste kleuren toekennen */
+    article
+    {
+    background-color: transparent;
+    }
+    
+    /* De juiste positie toekennen */
+    #bedrijfs_uitstraling > h1
+    {   
+    margin-left: 15%;
+    margin-top: 5%;
     }
 }
 
