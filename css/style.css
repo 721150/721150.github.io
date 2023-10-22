@@ -9,7 +9,7 @@
     background-color: #FFFFFF;
     border-color: transparent;
     border-style: none;
-    border-width: 0%;
+    border-width: 0px;
 }
 
 /* De juiste lettertypes en grotte van teksten toewijzen */
@@ -1211,5 +1211,26 @@ footer > section
     {
     background-color: #000000;
     padding: 5%;
+    }
+}
+
+/* Verberg zoekvenster, zodra deze op een lagere regel komt te staan */
+@media screen and (max-width: 1250px) 
+{
+    /* Code voor de mobiele variant */
+    /* Elementen die niet op de mobiele variant worden getoont */
+    #bedrijfs_uitstraling > form
+    {
+        display: none;
+    }
+}
+
+/* Maak navigatie kleiner, zodra deze op een lagere regel komt te staan */
+@media screen and (max-width: 1270px) 
+{
+    /* Code voor de desktop variant */
+    #hoofdmenu > ul > li > a
+    {
+    width: 16.4%;
     }
 }
