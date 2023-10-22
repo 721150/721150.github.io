@@ -1373,3 +1373,30 @@ padding: 5%;
     width: 16.4%;
     }
 }
+
+/* Code om aan opdracht te voldoen */
+tr:nth-child(even)
+{
+    background-color: #CFF;
+}
+
+tr:nth-child(odd)
+{
+    background-color: #FFF;
+}
+
+td
+{
+    background-color: transparent;
+}
+
+#niet_tonen
+{
+    display: none;
+    position: absolute;
+}
+
+p::first-letter
+{
+    text-transform: uppercase;
+}
