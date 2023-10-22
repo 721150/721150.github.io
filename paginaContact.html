@@ -15,8 +15,8 @@
             <h1>Leven in Driehuis</h1>
             <form>
                 <!-- Dit zoekvenster doet het niet, er kan alleen invoer worden gegeven waarna op de knop kan worden gedrukt (waarna het formulier weer leeg wordt weergeven) -->
-                    <input type="text"  name="zoeken">
-                    <button type="submit">Zoeken</button>
+                <input type="search"  name="zoeken">
+                <button type="submit">Zoeken</button>
             </form>
         </header>
         <nav id="hoofdmenu">
@@ -50,7 +50,7 @@
                     <p id="belangrijke_tekst_contact">Neem bij vragen of opmerkingen contact op met Leven in Driehuis middels dit formulier:</p>
                     <p id="onbelangrijke_tekst_contact">* Velden zijn verplicht</p>
                 </section>
-                <form action="/721150.github.io/"> 
+                <form action="/721150.github.io/" method="post"> 
                     <fieldset>
                         <legend id="aanhef">Uw aanhef: <i>*</i></legend>
                         <input type= "radio" id="man1" name="aanhef" value="de heer">
@@ -64,7 +64,7 @@
                         <label id="e-mailadres1" for="e-mailadres2">Uw e-mailadres: <i>*</i></label>
                         <input type="email" value="email" name="e-mailadres" id="e-mailadres2" placeholder="sschaper@inholland.nl">
                         <label id="telefoonnummer1" for="telefoonnummer2">Uw telefoonnummer:</label>
-                        <input type="text" name="telefoonnummer" id="telefoonnummer2" placeholder="0612345678">
+                        <input type="tel" name="telefoonnummer" id="telefoonnummer2" placeholder="0612345678">
                         <label id="vraag" for="groot_invoerveld">Uw vraag/opmerking: <i>*</i></label>
                         <textarea name="vraag" id="groot_invoerveld"></textarea>
                         <p id="uitleg_gebruiker">Wij proberen u binnen 5 werkdagen een reactie te geven.</p>

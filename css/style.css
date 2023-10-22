@@ -148,16 +148,6 @@ h1
     border-style: solid;
 }
 
-#onderwijs_home > figure > a > img, #sport_home > figure > a > img, #buitenspelen_home > figure > a > img, #natuur_home > figure > a > img
-{
-     width: 53.6%;
-}
-
-#onderwijs_home > p, #sport_home > p, #buitenspelen_home > p, #natuur_home > p
-{
-    width: 33.9%;
-}
-
 #groot_invoerveld
 {
     width: 120%;
@@ -465,6 +455,17 @@ footer > section
 @media screen and (min-width: 769px) 
 {
     /* Code voor de desktop variant */
+    /* Grootte van de onderdelen op de website */
+    #onderwijs_home > figure > a > img, #sport_home > figure > a > img, #buitenspelen_home > figure > a > img, #natuur_home > figure > a > img
+    {
+        width: 53.6%;
+    }
+
+    #onderwijs_home > p, #sport_home > p, #buitenspelen_home > p, #natuur_home > p
+    {
+        width: 33.9%;
+    }
+    /* Positie van de onderdelen op de website */ 
     #welkom_website > h1
     {
         width: 14.9%;
@@ -1214,7 +1215,7 @@ footer > section
 {
     /* Code voor de mobiele variant */
     /* Elementen die niet op de mobiele variant worden getoont */
-    #bedrijfs_uitstraling > form, #titel_pagina, #ontvanger1, #ontvanger1, #tekst_onderwijs_zonder_kleur1 > #foto_onderwijs, #aside_onderwijs, #aside_natuur, #aside_speelplekken, #aside_sport, #cookies
+    #bedrijfs_uitstraling > form, #titel_pagina, #ontvanger1, #ontvanger2, #tekst_onderwijs_zonder_kleur1 > #foto_onderwijs, #aside_onderwijs, #aside_natuur, #aside_speelplekken, #aside_sport, #cookies
     {
         display: none;
     }
@@ -1252,6 +1253,22 @@ footer > section
     {   
     margin-left: 15%;
     margin-top: 5%;
+    }
+    
+    #formulier
+    {
+        margin: 10%;
+    }
+    
+    #man1, #man2, #vrouw1, #vrouw2
+    {
+        padding-top: 0%;
+    }
+    
+    #man2, #vrouw2
+    {
+        height: 60%;
+        padding-bottom: 20%;
     }
 }
 
